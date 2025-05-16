@@ -13,6 +13,5 @@ namespace Data.Interfaces
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task<T> DeleteAsync(int id);
-        Task<T> DeleteLogic(bool status);
     }
 }
