@@ -5,7 +5,13 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Dapper >= 2.1.66",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\bscl\\.nuget\\packages\\": {},
@@ -57,6 +63,32 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -76,5 +108,88 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'System.Text.Json.9.0.0' from 'https://api.nuget.org/v3-flatcontainer/system.text.json/9.0.0/system.text.json.9.0.0.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.EntityFrameworkCore.Relational.9.0.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/9.0.0/microsoft.entityframeworkcore.relational.9.0.0.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'System.Formats.Asn1.9.0.0' from 'https://api.nuget.org/v3-flatcontainer/system.formats.asn1/9.0.0/system.formats.asn1.9.0.0.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'System.Text.Json.9.0.5' from 'https://api.nuget.org/v3-flatcontainer/system.text.json/9.0.5/system.text.json.9.0.5.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.Identity.Core.9.0.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.identity.core/9.0.0/microsoft.extensions.identity.core.9.0.0.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.DependencyModel.9.0.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/9.0.5/microsoft.extensions.dependencymodel.9.0.5.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.Caching.Abstractions.9.0.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/9.0.0/microsoft.extensions.caching.abstractions.9.0.0.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.Configuration.Abstractions.9.0.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/9.0.5/microsoft.extensions.configuration.abstractions.9.0.5.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.EntityFrameworkCore.Relational.9.0.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/9.0.5/microsoft.entityframeworkcore.relational.9.0.5.nupkg'.\r\nHost desconocido. (api.nuget.org:443)\r\n  Host desconocido."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://api.nuget.org/v3-flatcontainer/system.text.json/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Abstractions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Identity.Core' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.identity.core/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "Microsoft.Extensions.Identity.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Formats.Asn1' from remote source 'https://api.nuget.org/v3-flatcontainer/system.formats.asn1/index.json'.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
+      "libraryId": "System.Formats.Asn1"
+    }
+  ]
 }
