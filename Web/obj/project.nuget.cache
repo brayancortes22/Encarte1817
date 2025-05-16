@@ -1,15 +1,12 @@
 {
   "version": 2,
   "dgSpecHash": "TAgDCQsmVFA=",
-  "success": false,
+  "success": true,
   "projectFilePath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\Web.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  Host desconocido. (api.nuget.org:443)\r\n  Host desconocido.",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\bscl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\bscl\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\bscl\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
 }
