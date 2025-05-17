@@ -10,7 +10,7 @@ namespace Entity.Model
     {
         public int Id { get; set; }
         public int RolId { get; set; }
-        public string UserId { get; set; }= string.Empty;
+        public int UserId { get; set; }
         public bool Status { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
