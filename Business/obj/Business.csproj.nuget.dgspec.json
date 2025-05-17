@@ -7,7 +7,7 @@
     "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
         "projectName": "Business",
         "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -176,6 +177,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
