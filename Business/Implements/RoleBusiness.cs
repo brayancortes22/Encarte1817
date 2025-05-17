@@ -35,7 +35,7 @@ namespace Business.Implements
         ///<summary>
         /// Actualiza parcialmente un rol en la base de datos
         /// </summary>
-        public async Task<bool> UpdatePartialRolAsync(RolUpdateDto dto)
+        public async Task<bool> UpdatePartialRolAsync(UpdateRolDto dto)
         {
             if (dto == null || dto.Id <= 0)
                 throw new ValidationException("Id", "Datos inválidos");

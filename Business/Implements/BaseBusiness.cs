@@ -13,7 +13,7 @@ using Entity.Model.Interfaces;
 // Tambien se modifico return await base.GetByIdAsync(id); y quedo como
 // return await _repository.GetByIdAsync(id); Ahora implementa directamente la funcionalidad que antes estaba en ABaseBusiness
 
-namespace Business.Services
+namespace Business.Implements
 {
     public class BaseBusiness<TDto, TEntity> : ABaseBusiness<TEntity>, IBaseBusiness<TDto, TEntity>
         where TEntity : class
