@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Entity.Dtos.UserDTO
 {
+    /// <summary>
+    /// DTO para mostrar información básica de un usuario (operación get all, create, update(patch-put))
+    /// </summary>
     public class UserDto
     {
-        public int Id { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public string Id { get; set; } = string.Empty;
+        public required string Email { get; set; }
         public bool Status { get; set; }
-        
     }
 }

@@ -3316,7 +3316,6 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sedmo\\.nuget\\packages\\": {},
     "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
@@ -3324,21 +3323,16 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
-      "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
       "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\obj\\",
-      "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
-      "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\sedmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3353,8 +3347,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
+            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
             }
           }
         }
@@ -3413,7 +3407,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
