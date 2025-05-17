@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.EntityFrameworkCore.Design;
+
 using Entity.Model;
-using Entity.Context;
+
 using System.Data;
 using Dapper;
-using System.Reflection;
+
 using System.Linq.Expressions;
-
-
 
 
 namespace Entity.Context
@@ -102,9 +95,9 @@ namespace Entity.Context
         /// <param name="timeout">Tiempo de espera opcional para la consulta.</param>
         /// <param name="type">Tipo opcional de comando SQL.</param>
         /// <returns>Una colección de objetos del tipo especificado.</returns>
-        public async Task<IEnumerable<T>> QueryAsync<T>(string text, object parameters = null, int? timeout = null, CommandType? type = null)
+        public async Task<IEnumerable<T>> QueryAsync<T>(string text, object? parameters = null, int? timeout = null, CommandType? type = null)
         {
-           using var command = new DapperEFCoreCommand(this, text, parameters, timeout, type, CancellationToken.None);
+           using var command = new DapperEFCoreCommand(this, text, parameters ?? new { }, timeout, type, CancellationToken.None);
            var connection = this.Database.GetDbConnection();
            return await connection.QueryAsync<T>(command.Definition);
         }
@@ -118,12 +111,14 @@ namespace Entity.Context
         /// <param name="timeout">Tiempo de espera opcional para la consulta.</param>
         /// <param name="type">Tipo opcional de comando SQL.</param>
         /// <returns>Un objeto del tipo especificado o su valor predeterminado.</returns>
-        public async Task<T> QueryFirstOrDefaultAsync<T>(string text, object parameters = null, int? timeout = null, CommandType? type = null)
+        public async Task<T?> QueryFirstOrDefaultAsync<T>(string text, object? parameters = null, int? timeout = null, CommandType? type = null)
         {
-           using var command = new DapperEFCoreCommand(this, text, parameters, timeout, type, CancellationToken.None);
+           using var command = new DapperEFCoreCommand(this, text, parameters ?? new { }, timeout, type, CancellationToken.None);
            var connection = this.Database.GetDbConnection();
            return await connection.QueryFirstOrDefaultAsync<T>(command.Definition);
-        }        /// <summary>
+        }        
+        
+        /// <summary>
         /// Obtiene un IQueryable para usar en consultas LINQ que incluye filtro de status activo.
         /// </summary>
         /// <typeparam name="T">Tipo de entidad para la consulta.</typeparam>
@@ -153,7 +148,8 @@ namespace Entity.Context
             }
             
             return query;
-        }/// <summary>
+        }
+        /// <summary>
         /// Método auxiliar para obtener el valor de una propiedad de un objeto mediante reflexión.
         /// </summary>
         /// <param name="obj">Objeto del que se obtendrá el valor.</param>
@@ -184,7 +180,8 @@ namespace Entity.Context
             
             return query.Skip((page - 1) * pageSize).Take(pageSize);
         }
-          /// <summary>
+         
+        /// <summary>
         /// Ejecuta una consulta LINQ y devuelve los resultados como una colección asíncrona.
         /// </summary>
         /// <typeparam name="T">Tipo de los datos de retorno.</typeparam>
@@ -247,6 +244,22 @@ namespace Entity.Context
                         rolUser.UpdatedAt = currentDateTime;
                     }
                 }
+                else if (entry.State == EntityState.Deleted)
+                {
+                    // Actualiza las fechas de modificación
+                    if (entry.Entity is User user)
+                    {
+                        user.DeleteAt = currentDateTime;
+                    }
+                    else if (entry.Entity is Rol rol)
+                    {
+                        rol.DeleteAt = currentDateTime;
+                    }
+                    else if (entry.Entity is RolUser rolUser)
+                    {
+                        rolUser.DeleteAt = currentDateTime;
+                    }
+                }
             }
         }
 
@@ -255,30 +268,30 @@ namespace Entity.Context
         /// </summary>
         public readonly struct DapperEFCoreCommand : IDisposable
         {
-        //    /// <summary>
-        //    /// Constructor del comando Dapper.
-        //    /// </summary>
-        //    /// <param name="context">Contexto de la base de datos.</param>
-        //    /// <param name="text">Consulta SQL.</param>
-        //    /// <param name="parameters">Parámetros opcionales.</param>
-        //    /// <param name="timeout">Tiempo de espera opcional.</param>
-        //    /// <param name="type">Tipo de comando SQL opcional.</param>
-        //    /// <param name="ct">Token de cancelación.</param>
-           public DapperEFCoreCommand(DbContext context, string text, object parameters, int? timeout, CommandType? type, CancellationToken ct)
-           {
-               var transaction = context.Database.CurrentTransaction?.GetDbTransaction();
-               var commandType = type ?? CommandType.Text;
-               var commandTimeout = timeout ?? context.Database.GetCommandTimeout() ?? 30;
+        /// <summary>
+            /// Constructor del comando Dapper.
+            /// </summary>
+            /// <param name="context">Contexto de la base de datos.</param>
+            /// <param name="text">Consulta SQL.</param>
+            /// <param name="parameters">Parámetros opcionales.</param>
+            /// <param name="timeout">Tiempo de espera opcional.</param>
+            /// <param name="type">Tipo de comando SQL opcional.</param>
+            /// <param name="ct">Token de cancelación.</param>
+            public DapperEFCoreCommand(DbContext context, string text, object parameters, int? timeout, CommandType? type, CancellationToken ct)
+            {
+                var transaction = context.Database.CurrentTransaction?.GetDbTransaction();
+                var commandType = type ?? CommandType.Text;
+                var commandTimeout = timeout ?? context.Database.GetCommandTimeout() ?? 30;
 
-               Definition = new CommandDefinition(
-                   text,
-                   parameters,
-                   transaction,
-                   commandTimeout,
-                   commandType,
-                   cancellationToken: ct
-               );
-           }
+                Definition = new CommandDefinition(
+                    text,
+                    parameters,
+                    transaction,
+                    commandTimeout,
+                    commandType,
+                    cancellationToken: ct
+                );
+            }
 
         //    /// <summary>
         //    /// Define los parámetros del comando SQL.
