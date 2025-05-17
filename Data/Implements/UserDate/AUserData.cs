@@ -28,5 +28,6 @@ namespace Data.Implements.UserDate
         public abstract Task<bool> DeleteLogic(bool status);
         public abstract Task<bool> UpdatePartial(User user);
         public abstract Task<bool> AssingRolAsync(string userId, int rolId);
+
     }
 }

@@ -15,7 +15,7 @@ namespace Entity.Model
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeleteAt { get; set; }
-        public Rol? Rol { get; set; }
-        public User? User { get; set; } 
+        public Rol Rol { get; set; }
+        public User User { get; set; } 
     }
 }
