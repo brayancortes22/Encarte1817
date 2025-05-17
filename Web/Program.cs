@@ -1,40 +1,15 @@
-using System.Text;
-using Entity.Context;
-using Microsoft.AspNetCore.Authentication.JwtBearior;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Web.Middleware;
-using Web.ServiceExtension;
-using Business.Interfaces;
-using Business.Implements;
-using Business.Services;
-using Data.Interfaces;
-using Data.Implements;
-using Web.Services;
-using Entity.Dtos.RolDTO;
-using Entity.Dtos.RolUserDTO;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-using System.Text;
-using Entity.Context;
-using Microsoft.AspNetCore.Authentication.JwtBearior;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Web.Middleware;
-using Web.ServiceExtension;
-using Business.Interfaces;
-using Business.Implements;
-using Business.Services;
-using Data.Interfaces;
-using Data.Implements;
-using Web.Services;
-using Entity.Dtos.RolDTO;
-using Entity.Dtos.RolUserDTO;
+using Microsoft.Extensions.Options;
+using Utilities.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
+// builder.Services.AddScoped(typeof(IBaseData<>), typeof(ABaseData<>)); ACTIVENLA DESPUES DE HACER EL BUSINESS Y A�ADANLE LA DEL BUSINESS
 
-// Add services to the container
-// Add services to the container
+
+// Add services to the container.
+builder.Services.Configure<SwtpSettings>(builder.Configuration.GetSection("SwtpSettings"));
+builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<SwtpSettings>>().Value);
+
 builder.Services.AddControllers();
 
 // Registro de servicios genéricos
