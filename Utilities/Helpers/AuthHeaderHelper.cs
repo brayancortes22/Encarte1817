@@ -1,18 +1,19 @@
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Net.Http.Headers;
+using Utilities.Interfaces;
 
 namespace Utilities.Helpers
 {
-    public interface IAuthHeaderHelper
-    {
-        string ExtractBearerToken(HttpRequest request);
-        (string username, string password) ExtractBasicAuth(HttpRequest request);
-        bool TryGetBearerToken(HttpRequest request, out string token);
-    }
-
+    /// <summary>
+    /// Da funciones para extraer y procesar encabezados de autenticación de solicitudes HTTP.
+    /// </summary>
     public class AuthHeaderHelper : IAuthHeaderHelper
     {
+        /// <summary>
+        /// Extrae el token Bearer del encabezado de autorización de una solicitud HTTP.
+        /// </summary>
+        /// <param name="request">La solicitud HTTP de la cual extraer el token.</param>
+        /// <returns>El token Bearer si existe; de lo contrario, null.</returns>
+        /// <exception cref="ArgumentNullException">Se lanza cuando el parámetro request es null.</exception>
         public string ExtractBearerToken(HttpRequest request)
         {
             if (request == null)
@@ -25,6 +26,13 @@ namespace Utilities.Helpers
             return authHeader.Substring("Bearer ".Length).Trim();
         }
 
+        /// <summary>
+        /// Extrae el nombre de usuario y la contraseña de un encabezado de autenticación básica.
+        /// </summary>
+        /// <param name="request">La solicitud HTTP de la cual extraer las credenciales.</param>
+        /// <returns>Una tupla que contiene el nombre de usuario y la contraseña. Ambos valores
+        /// serán null si no se puede extraer la información.</returns>
+        /// <exception cref="ArgumentNullException">Se lanza cuando el parámetro request es null.</exception>
         public (string username, string password) ExtractBasicAuth(HttpRequest request)
         {
             if (request == null)
@@ -48,6 +56,13 @@ namespace Utilities.Helpers
             return (username, password);
         }
 
+        /// <summary>
+        /// Intenta obtener el token Bearer de una solicitud HTTP.
+        /// </summary>
+        /// <param name="request">La solicitud HTTP de la cual extraer el token.</param>
+        /// <param name="token">Cuando este método retorna, contiene el token Bearer
+        /// extraído de la solicitud si la extracción fue exitosa; de lo contrario, null.</param>
+        /// <returns>true si el token se extrajo exitosamente; de lo contrario, false.</returns>
         public bool TryGetBearerToken(HttpRequest request, out string token)
         {
             token = ExtractBearerToken(request);
