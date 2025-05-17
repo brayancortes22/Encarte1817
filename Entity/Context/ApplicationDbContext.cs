@@ -123,7 +123,9 @@ namespace Entity.Context
            using var command = new DapperEFCoreCommand(this, text, parameters, timeout, type, CancellationToken.None);
            var connection = this.Database.GetDbConnection();
            return await connection.QueryFirstOrDefaultAsync<T>(command.Definition);
-        }        /// <summary>
+        }        
+        
+        /// <summary>
         /// Obtiene un IQueryable para usar en consultas LINQ que incluye filtro de status activo.
         /// </summary>
         /// <typeparam name="T">Tipo de entidad para la consulta.</typeparam>
@@ -184,7 +186,8 @@ namespace Entity.Context
             
             return query.Skip((page - 1) * pageSize).Take(pageSize);
         }
-          /// <summary>
+         
+        /// <summary>
         /// Ejecuta una consulta LINQ y devuelve los resultados como una colección asíncrona.
         /// </summary>
         /// <typeparam name="T">Tipo de los datos de retorno.</typeparam>
@@ -245,6 +248,22 @@ namespace Entity.Context
                     else if (entry.Entity is RolUser rolUser)
                     {
                         rolUser.UpdatedAt = currentDateTime;
+                    }
+                }
+                else if (entry.State == EntityState.Modified)
+                {
+                    // Actualiza las fechas de modificación
+                    if (entry.Entity is User user)
+                    {
+                        user.DeleteAt = currentDateTime;
+                    }
+                    else if (entry.Entity is Rol rol)
+                    {
+                        rol.DeleteAt = currentDateTime;
+                    }
+                    else if (entry.Entity is RolUser rolUser)
+                    {
+                        rolUser.DeleteAt = currentDateTime;
                     }
                 }
             }
