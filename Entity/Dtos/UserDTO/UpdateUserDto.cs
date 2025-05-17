@@ -8,11 +8,12 @@ using System.ComponentModel.DataAnnotations;
 namespace Entity.Dtos.UserDTO
 {
     /// <summary>
-    /// DTO para mostrar información básica de un usuario (operación Delete permanente)
+    /// DTO para mostrar información básica de un usuario (operación get all, create, update(patch-put))
     /// </summary>
-    public class DeleteLogicalUserDto
+    public class UpdateUserDto
     {
         public int Id { get; set; }
-        public bool Status { get; set; } = false;
+        public required string Email { get; set; }
+        public required string Password { get; set; }
     }
 }

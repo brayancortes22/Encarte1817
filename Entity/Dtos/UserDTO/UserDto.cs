@@ -12,8 +12,9 @@ namespace Entity.Dtos.UserDTO
     /// </summary>
     public class UserDto
     {
-        public string Id { get; set; } = string.Empty;
+        public int Id { get; set; }
         public required string Email { get; set; }
+        public required string Password { get; set; }
         public bool Status { get; set; }
     }
 }
