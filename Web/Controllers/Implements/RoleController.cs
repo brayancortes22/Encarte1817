@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Entity.Dtos.RolDTO;
 using Entity.Model;
-using Business.Interfaces;
-using Web.Controllers.Interfaces;
 using Web.Controllers.Interface;
 
 namespace Web.Controllers.Implements
@@ -16,6 +14,7 @@ namespace Web.Controllers.Implements
             : base(rolBusiness, logger)
         {
             _rolBusiness = rolBusiness;
+            _logger = logger;
         }
 
         protected override int GetEntityId(RolDto dto)
