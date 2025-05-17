@@ -3354,23 +3354,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\bscl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\obj\\",
+      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3379,6 +3379,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
