@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +10,10 @@ namespace Entity.Dtos.UserDTO
     /// <summary>
     /// DTO para mostrar información básica de un usuario (operación get all, create, update(patch-put))
     /// </summary>
-    public class UserDto
+    public class UpdateUserDto
     {
         public int Id { get; set; }
         public required string Email { get; set; }
         public required string Password { get; set; }
-        public bool Status { get; set; }
     }
 }
