@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Entity.Dtos.UserDTO;
 using Entity.Model;
-using Business.Interfaces;
-using Web.Controllers.Interfaces;
 using Web.Controllers.Interface;
 
 namespace Web.Controllers.Implements
@@ -64,28 +62,41 @@ namespace Web.Controllers.Implements
             }
         }
 
-        [HttpPatch("status")]
+
+
+        //Este metodo responde a patch /users//{id}/status
+        [HttpPatch("users/{id}/status")]
         public async Task<IActionResult> SetUserActive([FromBody] UserStatusDto dto)
         {
             try
             {
+                //validacion de modelo
+
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                var result = await _userBusiness.SetUserActiveAsync(dto);
+                    //llamamos a la logica de negocio pasando el ID y el nuevo estado
+
+                var result = await _userBusiness.SetUserActiveAsync(id,dto.IsActive);
+                //Responde con 200 OK el resultado
                 return Ok(new { Success = result });
             }
             catch (ArgumentException ex)
             {
+                //Captura errores de validacion  por ejemplo, usuario no encontrado
                 _logger.LogError($"Error de validación al cambiar estado de usuario: {ex.Message}");
                 return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
+                //Captura errores inesperados
                 _logger.LogError($"Error al cambiar estado de usuario: {ex.Message}");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
+
+
+        
 
         [HttpPost("validate")]
         public async Task<IActionResult> ValidateCredentials([FromBody] LoginRequestDto loginDto)
@@ -109,6 +120,8 @@ namespace Web.Controllers.Implements
         }
     }
 
+
+//prueba 
     public class LoginRequestDto
     {
         public string Email { get; set; }
