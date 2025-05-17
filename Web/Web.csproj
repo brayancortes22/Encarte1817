@@ -18,7 +18,6 @@
   <ItemGroup>
     <Folder Include="Controllers\Implements\" />
     <Folder Include="Controllers\Interfaces\" />
-    <Folder Include="ServiceExtension\" />
   </ItemGroup>
 
 </Project>
