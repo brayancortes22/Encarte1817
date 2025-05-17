@@ -8,26 +8,25 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Utilities.Mail;
+using Data.Implements.BaseDate;
+using Data.Interfaces;
 
 namespace Data.Implements.UserDate
-{
-    public class UserData : AUserData
+{   
+    public class UserData : BaseData<User> , IUserData
     {
-        private readonly SwtpSettings _swtpSettings;
 
-        public UserData(ApplicationDbContext context, SwtpSettings swtpSettings) : base(context)
+        public UserData(ApplicationDbContext context) : base(context)
         {
-            _swtpSettings = swtpSettings; // Inicializar el campo
         }
 
-        public override async Task<User> LoginAsync(string email, string password)
+        public async Task<User> LoginAsync(string email, string password)
         {
             return await _context.Users
                 .FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
         }
 
-        public override async Task<bool> ChangePasswordAsync(int userId, string password)
+        public async Task<bool> ChangePasswordAsync(int userId, string password)
         {
             var user = await _context.Users.FindAsync(userId);
             if (user == null) return false;
@@ -37,40 +36,15 @@ namespace Data.Implements.UserDate
             return true;
         }
 
-        public override async Task<User> GetByEmailAsync(string email)
+        public async Task<User> GetByEmailAsync(string email)
         {
-            // Replace the call to GetAllAsync with a proper DbSet query
-            var users = await _context.Users.ToListAsync(); // Correct usage of DbSet
+            // Reemplaza el llamado del metodo GETBYID con uno ya establecido con _dbSet
+            var users = await _context.Users.ToListAsync(); // uso correcto del _dbSet
             return users.FirstOrDefault(u => u.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
         }
 
-        public override async Task SendEmailAsync(string email, string subject, string body)
-        {
-            if (string.IsNullOrWhiteSpace(email))
-                throw new ArgumentException("El correo de destino no puede estar vacío.");
 
-            // Configurar el mensaje
-            var message = new MailMessage
-            {
-                From = new MailAddress(_swtpSettings.SenderEmail, _swtpSettings.SenderName),
-                Subject = subject,
-                Body = body,
-                IsBodyHtml = true
-            };
-            message.To.Add(new MailAddress(email));
-
-            // Configurar el cliente SMTP
-            using var client = new SmtpClient(_swtpSettings.Server, _swtpSettings.Port)
-            {
-                Credentials = new NetworkCredential(_swtpSettings.UserName, _swtpSettings.Password),
-                EnableSsl = _swtpSettings.EnableSsl,
-                Timeout = _swtpSettings.TimeOut
-            };
-
-            await client.SendMailAsync(message);
-        }
-
-        public override async Task<bool> DeleteLogic(bool status)
+        public async Task<bool> Active(int id,bool status)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Status == status);
             if (user == null) return false;
@@ -79,18 +53,18 @@ namespace Data.Implements.UserDate
             await _context.SaveChangesAsync();
             return true;
         }
-        public override async Task<bool> UpdatePartial(User user)
+        public async Task<bool> UpdatePartial(User user)
         {
             var existingUser = await _context.Users.FindAsync(user.Id);
             if (existingUser == null) return false;
-            // Update only the fields that are not null
+            // Actualiza solo los campos q no son nulos
             if (!string.IsNullOrEmpty(user.Email)) existingUser.Email = user.Email;
             if (!string.IsNullOrEmpty(user.Password)) existingUser.Password = user.Password;
             _context.Users.Update(existingUser);
             await _context.SaveChangesAsync();
             return true;
         }
-        public override async Task<bool> AssingRolAsync(string userId, int rolId)
+        public async Task<bool> AssingRolAsync(string userId, int rolId)
         {
             var user = await _context.Users.FindAsync(userId);
             if (user == null) return false;
