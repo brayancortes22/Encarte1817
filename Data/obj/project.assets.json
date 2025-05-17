@@ -1226,6 +1226,24 @@
         "runtime": {
           "bin/placeholder/Entity.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "BCrypt.Net-Next": "4.0.3",
+          "Entity": "1.0.0",
+          "MailKit": "4.12.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
+          "MimeKit": "4.12.0"
+        },
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -3303,16 +3321,17 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "AutoMapper >= 14.0.0",
-      "BCrypt.Net-Next >= 4.0.3",
       "Entity >= 1.0.0",
-      "MailKit >= 4.12.0",
-      "Microsoft.AspNetCore.Http.Abstractions >= 2.3.0",
-      "MimeKit >= 4.12.0"
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3322,11 +3341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
-      "projectName": "Utilities",
-      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\obj\\",
+      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3350,6 +3369,9 @@
           "projectReferences": {
             "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
               "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj"
+            },
+            "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -3369,28 +3391,6 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
-        "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[14.0.0, )"
-          },
-          "BCrypt.Net-Next": {
-            "target": "Package",
-            "version": "[4.0.3, )"
-          },
-          "MailKit": {
-            "target": "Package",
-            "version": "[4.12.0, )"
-          },
-          "Microsoft.AspNetCore.Http.Abstractions": {
-            "target": "Package",
-            "version": "[2.3.0, )"
-          },
-          "MimeKit": {
-            "target": "Package",
-            "version": "[4.12.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

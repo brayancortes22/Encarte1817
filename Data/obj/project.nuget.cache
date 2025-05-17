@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EMZzq8RvmHE=",
+  "dgSpecHash": "q9xJMiJHo3s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
+  "projectFilePath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bscl\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\bscl\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
