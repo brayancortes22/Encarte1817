@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
+using Business.Interfaces;
 using Business.Services;
 using Data.Interfaces;
 using Entity.Dtos.UserDTO;

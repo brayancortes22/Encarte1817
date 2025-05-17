@@ -42,11 +42,13 @@ namespace Utilities.Interfaces
         /// <returns>True si es válido, False en caso contrario</returns>
         bool IsValidCreditCard(string cardNumber);
 
-        /// <summary>
+        /// <summary>   
         /// Verifica si un número de identificación es válido
         /// </summary>
         /// <param name="identityNumber">El número de identificación a validar</param>
         /// <returns>True si es válido, False en caso contrario</returns>
         bool IsValidIdentityNumber(string identityNumber);
+
+        
     }
 }

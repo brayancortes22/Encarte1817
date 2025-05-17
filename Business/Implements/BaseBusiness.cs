@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Business.Interfaces;
-using Business.Implements; 
 using Microsoft.Extensions.Logging;
-using Entity.Model.Interfaces;
+using Utilities.Interfaces;
+using Data.Interfaces;
+using FluentValidation.Results;
 
-// July se modifico el var result = await base.CreateAsync(entity); y quedo como
-// var result = await CreateAsync(entity); Ahora llama al método local de la misma clase en lugar del método de la clase base
 
-// Tambien se modifico return await base.GetByIdAsync(id); y quedo como
-// return await _repository.GetByIdAsync(id); Ahora implementa directamente la funcionalidad que antes estaba en ABaseBusiness
 
 namespace Business.Implements
 {
@@ -19,32 +16,23 @@ namespace Business.Implements
         where TEntity : class
     {
         protected readonly IMapper _mapper;
-        protected readonly IValidator<TDto> _validator;
+        protected readonly IGenericIHelpers _helpers;
 
         public BaseBusiness(
             IBaseData<TEntity> repository,
             ILogger logger,
             IMapper mapper,
-            IValidator<TDto> validator = null)
+            IGenericIHelpers helpers)
             : base(repository, logger)
         {
             _mapper = mapper;
-            _validator = validator;
-        }
-
-        protected virtual ValidationResult ValidateDto(TDto dto)
-        {
-            if (_validator == null)
-            {
-                return new ValidationResult(); // Devuelve válido si no hay validador
-            }
-
-            return _validator.Validate(dto);
+            _helpers = helpers;
+            
         }
 
         protected void EnsureValid(TDto dto)
         {
-            var validationResult = ValidateDto(dto);
+            var validationResult = _helpers.Validate(dto);
             if (!validationResult.IsValid)
             {
                 var errors = string.Join(", ", validationResult.Errors);
@@ -129,10 +117,9 @@ namespace Business.Implements
             try
             {
                 _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name} desde DTO");
-                
-                // Validar antes de cualquier operación
+
                 EnsureValid(dto);
-                
+
                 var entity = _mapper.Map<TEntity>(dto);
                 var result = await CreateAsync(entity);
                 return _mapper.Map<TDto>(result);
@@ -163,10 +150,9 @@ namespace Business.Implements
             try
             {
                 _logger.LogInformation($"Actualizando {typeof(TEntity).Name} desde DTO");
-                
-                // Validar antes de cualquier operación
+
                 EnsureValid(dto);
-                
+
                 var entity = _mapper.Map<TEntity>(dto);
                 var result = await UpdateAsync(entity);
                 return _mapper.Map<TDto>(result);
