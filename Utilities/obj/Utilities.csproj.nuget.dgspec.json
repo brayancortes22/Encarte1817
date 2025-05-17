@@ -4,14 +4,14 @@
     "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
-        "projectName": "Utilities",
-        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
