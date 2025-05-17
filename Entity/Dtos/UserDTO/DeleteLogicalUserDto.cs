@@ -12,7 +12,7 @@ namespace Entity.Dtos.UserDTO
     /// </summary>
     public class DeleteLogicalUserDto
     {
-        public string Id { get; set; } = string.Empty;
+        public int Id { get; set; }
         public bool Status { get; set; } = false;
     }
 }

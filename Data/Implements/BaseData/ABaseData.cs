@@ -1,5 +1,6 @@
 ﻿using Data.Interfaces;
 using Entity.Context;
+using Entity.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,14 @@ using System.Threading.Tasks;
 
 namespace Data.Implements.BaseDate
 {
+
+    /// <summary>
+    /// Clase abstracta para poder sobre escribir métodos e incluir nuevos metodos sin cambiar la Interfaz
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class ABaseData<T> : IBaseData<T> where T : class
     {
+
         protected readonly ApplicationDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
@@ -26,5 +33,8 @@ namespace Data.Implements.BaseDate
         public abstract Task<T> CreateAsync(T entity);
         public abstract Task UpdateAsync(T entity);
         public abstract Task DeleteAsync(int id);
+
+
+ 
     }
 }

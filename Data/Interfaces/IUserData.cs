@@ -7,13 +7,12 @@ using Entity.Model;
 
 namespace Data.Interfaces
 {
-    public interface IUserData
+    public interface IUserData : IBaseData<User>
     {
         Task<User> LoginAsync(string email, string password);
         Task<bool> ChangePasswordAsync(int userId,string password);
         Task<User> GetByEmailAsync(string email);
-        Task SendEmailAsync(string email, string subject, string body);
-        Task<bool> DeleteLogic(bool status);
+        Task<bool> Active(int id,bool status);
         Task<bool> UpdatePartial(User user);
         Task<bool> AssingRolAsync(string userId, int rolId);
     }

@@ -1,41 +1,95 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
-        "projectName": "Entity",
-        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\obj\\",
-=======
-    "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj",
-        "projectName": "Entity",
-        "projectPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\Diego Alejandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\obj\\",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Diego Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+              },
+              "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,39 +167,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\obj\\",
-=======
-    "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj",
-        "projectName": "Utilities",
-        "projectPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\Diego Alejandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\obj\\",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
+        "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Diego Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,13 +199,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj"
-=======
-              "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj"
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
+              "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
               }
             }
           }
@@ -232,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
