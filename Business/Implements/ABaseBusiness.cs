@@ -1,16 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Data.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace Business.Implements
 {
     public abstract class ABaseBusiness<TEntity> where TEntity : class
     {
-        protected readonly IGenericData<TEntity> _repository;
+        protected readonly IBaseData<TEntity> _repository;
         protected readonly ILogger _logger;
 
-        public ABaseBusiness(IGenericData<TEntity> repository, ILogger logger)
+        public ABaseBusiness(IBaseData<TEntity> repository, ILogger logger)
         {
             _repository = repository;
             _logger = logger;

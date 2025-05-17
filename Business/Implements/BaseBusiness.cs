@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Business.Interfaces;
-using Business.Implements;
-using Business.Validation; // Nueva carpeta para IValidator
-using Data.Interfaces;
+using Business.Implements; 
 using Microsoft.Extensions.Logging;
 using Entity.Model.Interfaces;
 
@@ -18,7 +16,7 @@ namespace Business.Services
         protected readonly IValidator<TDto> _validator; // Añadido: Validator
 
         public BaseBusiness(
-            IGenericData<TEntity> repository, 
+            IBaseData<TEntity> repository, 
             ILogger logger, 
             IMapper mapper,
             IValidator<TDto> validator = null) // Opcional para mantener compatibilidad

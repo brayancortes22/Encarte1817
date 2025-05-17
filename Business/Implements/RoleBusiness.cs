@@ -1,4 +1,15 @@
 using System.ComponentModel.DataAnnotations;
+using DataAccess.Interfaces; 
+using AutoMapper; 
+using Microsoft.Extensions.Logging; 
+using Entity; 
+using Dtos;
+using Exceptions;
+
+
+namespace Business.Implements
+{
+
 
 public class RolBusiness : BaseBusiness<Rol, RolDto>, IRolBusiness
 {
@@ -33,4 +44,5 @@ public class RolBusiness : BaseBusiness<Rol, RolDto>, IRolBusiness
         return await _rolData.DeleteLogicAsync(id);
     }
 
+}
 }

@@ -1,4 +1,6 @@
 using Business.Interfaces;
+using Entity.Dtos.UserDTO;
+using Entity.Model;
 
 public interface IUserBusiness : IBaseBusiness<User, UserDto>
 {
