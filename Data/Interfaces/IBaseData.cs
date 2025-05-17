@@ -9,9 +9,9 @@ namespace Data.Interfaces
     public interface IBaseData<T> where T : class
     {
         Task<T> GetByIdAsync(int id);
-        Task<IEnumerable<T>> GetAllAsync();
-        Task CreateAsync(T entity);
+        Task<List<T>> GetAllAsync();
+        Task<T> CreateAsync(T entity);
         Task UpdateAsync(T entity);
-        Task<T> DeleteAsync(int id);
+        Task DeleteAsync(int id);
     }
 }
