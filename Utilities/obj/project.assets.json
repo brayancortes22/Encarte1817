@@ -3411,39 +3411,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\bscl\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\": {},
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
-      "projectName": "Utilities",
-      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
-      "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
       "projectPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Utilities.csproj",
       "packagesPath": "C:\\Users\\Diego Alejandro\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\obj\\",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\Diego Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3452,20 +3436,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj"
-=======
             "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj": {
               "projectPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Entity.csproj"
->>>>>>> d963f4920f4a99c61fefac3e553d4ae2fabee133
             }
           }
         }
