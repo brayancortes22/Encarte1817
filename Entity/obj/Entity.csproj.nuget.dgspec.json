@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {}
+    "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+    "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\obj\\",
         "projectStyle": "PackageReference",

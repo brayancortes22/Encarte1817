@@ -21,3 +21,15 @@ C:\Users\bscl\Downloads\Encarte1817\Business\obj\Debug\net9.0\Business.dll
 C:\Users\bscl\Downloads\Encarte1817\Business\obj\Debug\net9.0\refint\Business.dll
 C:\Users\bscl\Downloads\Encarte1817\Business\obj\Debug\net9.0\Business.pdb
 C:\Users\bscl\Downloads\Encarte1817\Business\obj\Debug\net9.0\ref\Business.dll
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\bin\Debug\net9.0\Business.deps.json
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\bin\Debug\net9.0\Business.dll
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\bin\Debug\net9.0\Business.pdb
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.AssemblyInfoInputs.cache
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.AssemblyInfo.cs
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.sourcelink.json
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.dll
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\refint\Business.dll
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\Business.pdb
+C:\Users\14-em0005Ia\source\repos\Encarte1817\Business\obj\Debug\net9.0\ref\Business.dll
