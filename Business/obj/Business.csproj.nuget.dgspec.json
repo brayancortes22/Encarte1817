@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj": {}
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj": {
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +56,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[17.14.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -152,17 +157,17 @@
     "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -171,7 +176,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

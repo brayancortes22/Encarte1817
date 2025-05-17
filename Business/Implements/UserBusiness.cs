@@ -10,6 +10,10 @@ using Microsoft.Extensions.Logging;
 
 namespace Business.Implements
 {
+    /// <summary>
+    /// Contiene la logica de negocio de los metodos especificos para la entidad Rol
+    /// Extiende BaseBusiness heredando la logica de negocio de los metodos base 
+    /// </summary>
     public class UserBusiness : BaseBusiness<User, UserDto>, IUserBusiness
     {
         private readonly IUserData _userData;
@@ -81,6 +85,5 @@ namespace Business.Implements
 
             return await _userData.SetActiveAsync(dto.Id, dto.Active);
         }
-
     }
 }

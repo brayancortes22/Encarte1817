@@ -209,6 +209,19 @@
           }
         }
       },
+      "Microsoft.Build.Framework/17.14.8": {
+        "type": "package",
+        "compile": {
+          "ref/net9.0/Microsoft.Build.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Build.Framework.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1527,6 +1540,32 @@
         "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Build.Framework/17.14.8": {
+      "sha512": "hwpXdyiD8phuIRtYK4fcPrSKRXn6MHI37IkbvAM2D50OnPRbmKGPwtrXi/vYQ7+VQbMzmw1zaKp+rsroBwNGtg==",
+      "type": "package",
+      "path": "microsoft.build.framework/17.14.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuild-NuGet-Icon.png",
+        "README.md",
+        "lib/net472/Microsoft.Build.Framework.dll",
+        "lib/net472/Microsoft.Build.Framework.pdb",
+        "lib/net472/Microsoft.Build.Framework.xml",
+        "lib/net9.0/Microsoft.Build.Framework.dll",
+        "lib/net9.0/Microsoft.Build.Framework.pdb",
+        "lib/net9.0/Microsoft.Build.Framework.xml",
+        "microsoft.build.framework.17.14.8.nupkg.sha512",
+        "microsoft.build.framework.nuspec",
+        "notices/THIRDPARTYNOTICES.txt",
+        "ref/net472/Microsoft.Build.Framework.dll",
+        "ref/net472/Microsoft.Build.Framework.xml",
+        "ref/net9.0/Microsoft.Build.Framework.dll",
+        "ref/net9.0/Microsoft.Build.Framework.xml",
+        "ref/netstandard2.0/Microsoft.Build.Framework.dll",
+        "ref/netstandard2.0/Microsoft.Build.Framework.xml"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -3350,27 +3389,28 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Data >= 1.0.0",
-      "Entity >= 1.0.0"
+      "Entity >= 1.0.0",
+      "Microsoft.Build.Framework >= 17.14.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bscl\\.nuget\\packages\\": {},
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3379,7 +3419,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3410,6 +3449,12 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.Build.Framework": {
+            "target": "Package",
+            "version": "[17.14.8, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
