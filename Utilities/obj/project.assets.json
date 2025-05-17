@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sedmo\\.nuget\\packages\\": {},
+    "C:\\Users\\bscl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
-      "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
-      "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\obj\\",
+      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
+      "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sedmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
