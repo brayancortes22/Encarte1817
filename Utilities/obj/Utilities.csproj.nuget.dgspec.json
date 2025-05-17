@@ -31,7 +31,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -49,6 +53,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

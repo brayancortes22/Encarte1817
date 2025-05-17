@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {}
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj": {}
   },
   "projects": {
     "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
@@ -160,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
