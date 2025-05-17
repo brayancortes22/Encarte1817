@@ -59,7 +59,7 @@ namespace Business.Services
                 var userRoles = await _roleUserBusiness.GetAllAsync();
                 var userRoleIds = userRoles
                     .Where(ur => ur.UserId == user.Id)
-                    .Select(ur => ur.RoleId)
+                    .Select(ur => ur.RolId)
                     .ToList();
 
                 // Obtener nombres de roles

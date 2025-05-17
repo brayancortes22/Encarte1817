@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace Data.Interfaces
 
@@ -38,13 +39,14 @@ namespace Data.Interfaces
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task UpdateAsync(T entity);
+        Task<T> UpdateAsync(T entity);
+
 
         /// <summary>
         /// Eliminación concreta o absoluta
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        Task DeleteAsync(int id);
+        Task<bool> DeleteAsync(int id);
     }
 }

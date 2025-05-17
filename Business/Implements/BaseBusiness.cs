@@ -3,46 +3,36 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Business.Interfaces;
-using Business.Implements;
-using Business.Validation; // Nueva carpeta para IValidator
-using Data.Interfaces;
 using Microsoft.Extensions.Logging;
-using Entity.Model.Interfaces;
+using Utilities.Interfaces;
+using Data.Interfaces;
+using FluentValidation.Results;
 
-namespace Business.Services
+
+
+namespace Business.Implements
 {
     public class BaseBusiness<TDto, TEntity> : ABaseBusiness<TEntity>, IBaseBusiness<TDto, TEntity>
         where TEntity : class
     {
         protected readonly IMapper _mapper;
-        protected readonly IValidator<TDto> _validator; // Añadido: Validator
+        protected readonly IGenericIHelpers _helpers;
 
         public BaseBusiness(
-            IGenericData<TEntity> repository, 
-            ILogger logger, 
+            IBaseData<TEntity> repository,
+            ILogger logger,
             IMapper mapper,
-            IValidator<TDto> validator = null) // Opcional para mantener compatibilidad
+            IGenericIHelpers helpers)
             : base(repository, logger)
         {
             _mapper = mapper;
-            _validator = validator;
-        }
-
-        // Método para validar
-        protected virtual ValidationResult ValidateDto(TDto dto)
-        {
-            if (_validator == null)
-            {
-                return new ValidationResult(); // Devuelve válido si no hay validador
-            }
+            _helpers = helpers;
             
-            return _validator.Validate(dto);
         }
 
-        // Método para lanzar excepción si es inválido
-        protected void EnsureValid(TDto dto)
+        protected async Task EnsureValid(TDto dto)
         {
-            var validationResult = ValidateDto(dto);
+            var validationResult = await _helpers.Validate(dto);
             if (!validationResult.IsValid)
             {
                 var errors = string.Join(", ", validationResult.Errors);
@@ -50,12 +40,13 @@ namespace Business.Services
             }
         }
 
+
         public override async Task<IEnumerable<TEntity>> GetAllAsync()
         {
             try
             {
                 _logger.LogInformation($"Obteniendo todos los registros de {typeof(TEntity).Name}");
-                return await _repository.GetAllAsync(); 
+                return await _repository.GetAllAsync();
             }
             catch (Exception ex)
             {
@@ -63,7 +54,6 @@ namespace Business.Services
                 throw;
             }
         }
-
 
         public async Task<IEnumerable<TDto>> GetAllDtoAsync()
         {
@@ -85,7 +75,7 @@ namespace Business.Services
             try
             {
                 _logger.LogInformation($"Obteniendo {typeof(TEntity).Name} con ID: {id}");
-                return await base.GetByIdAsync(id);
+                return await _repository.GetByIdAsync(id);
             }
             catch (Exception ex)
             {
@@ -109,18 +99,12 @@ namespace Business.Services
             }
         }
 
-        public async Task<TDto> CreateAsync(TDto dto)
+        public override async Task<TEntity> CreateAsync(TEntity entity)
         {
             try
             {
                 _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name}");
-                
-                // Validar antes de cualquier operación
-                EnsureValid(dto);
-                
-                var entity = _mapper.Map<TEntity>(dto);
-                var result = await base.CreateAsync(entity);
-                return _mapper.Map<TDto>(result);
+                return await _repository.CreateAsync(entity);
             }
             catch (Exception ex)
             {
@@ -129,22 +113,54 @@ namespace Business.Services
             }
         }
 
-        public async Task<TDto> UpdateAsync(TDto dto)
+        public async Task<TDto> CreateAsync(TDto dto)
         {
             try
             {
-                _logger.LogInformation($"Actualizando {typeof(TEntity).Name}");
-                
-                // Validar antes de cualquier operación
+                _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name} desde DTO");
+
                 EnsureValid(dto);
-                
+
                 var entity = _mapper.Map<TEntity>(dto);
-                var result = await base.UpdateAsync(entity);
+                var result = await CreateAsync(entity);
                 return _mapper.Map<TDto>(result);
             }
             catch (Exception ex)
             {
+                _logger.LogError($"Error al crear {typeof(TEntity).Name} desde DTO: {ex.Message}");
+                throw;
+            }
+        }
+
+        public override async Task<TEntity> UpdateAsync(TEntity entity)
+        {
+            try
+            {
+                _logger.LogInformation($"Actualizando {typeof(TEntity).Name}");
+                return await _repository.UpdateAsync(entity);
+            }
+            catch (Exception ex)
+            {
                 _logger.LogError($"Error al actualizar {typeof(TEntity).Name}: {ex.Message}");
+                throw;
+            }
+        }
+
+        public async Task<TDto> UpdateAsync(TDto dto)
+        {
+            try
+            {
+                _logger.LogInformation($"Actualizando {typeof(TEntity).Name} desde DTO");
+
+                EnsureValid(dto);
+
+                var entity = _mapper.Map<TEntity>(dto);
+                var result = await UpdateAsync(entity);
+                return _mapper.Map<TDto>(result);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error al actualizar {typeof(TEntity).Name} desde DTO: {ex.Message}");
                 throw;
             }
         }
@@ -154,7 +170,7 @@ namespace Business.Services
             try
             {
                 _logger.LogInformation($"Eliminando {typeof(TEntity).Name} con ID: {id}");
-                return await base.DeleteAsync(id);
+                return await _repository.DeleteAsync(id);
             }
             catch (Exception ex)
             {
