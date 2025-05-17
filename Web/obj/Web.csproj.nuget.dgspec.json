@@ -2,11 +2,18 @@
   "format": 1,
   "restore": {
     "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\Web.csproj": {}
+    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
     "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
+        "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\obj\\",
         "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
         "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj",
@@ -18,6 +25,7 @@
         ],
         "configFilePaths": [
           "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +34,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -125,6 +134,10 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
@@ -149,6 +162,7 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
