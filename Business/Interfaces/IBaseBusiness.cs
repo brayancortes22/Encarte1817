@@ -4,7 +4,7 @@ using Data.Interfaces;
 
 namespace Business.Interfaces
 {
-    public interface IBaseBusiness<TDto, TEntity> where TEntity : class , IBaseData<TEntity>
+    public interface IBaseBusiness<TDto, TEntity> where TEntity : class 
     {
         /// <summary>
         /// Obtiene todas las entidades desde la base de datos.

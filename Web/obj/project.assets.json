@@ -3384,23 +3384,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\bscl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\obj\\",
+      "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\bscl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bscl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3409,20 +3409,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj"
+            "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Business\\Business.csproj"
             },
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+            "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Entity\\Entity.csproj"
             },
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj"
+            "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\bscl\\Downloads\\Encarte1817\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -3513,6 +3514,6 @@
       "targetGraphs": [
         "net9.0"
       ]
-    }
+  }
   ]
 }
