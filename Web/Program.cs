@@ -2,9 +2,16 @@
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Utilities.Interfaces;
+using Utilities.Jwt;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+// Registrar el servicio IJwtGenerator con su implementación GenerateTokenJwt
+builder.Services.AddScoped<IJwtGenerator, GenerateTokenJwt>();
+
 
 // Add services to the container.
 builder.Services.AddControllers();

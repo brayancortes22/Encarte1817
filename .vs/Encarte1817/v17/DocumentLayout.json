@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\interfaces\\ijwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\interfaces\\ijwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\authheaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\authheaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\interfaces\\ivalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\interfaces\\ivalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\mail\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,22 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\helpers\\authheaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\authheaderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\encarte1817\\utilities\\interfaces\\ipasswordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,24 +78,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "Utilities\\Mail\\SmtpSettings.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
-              "RelativeToolTip": "Utilities\\Mail\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IJwtGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IJwtGenerator.cs",
+              "RelativeDocumentMoniker": "Utilities\\Interfaces\\IJwtGenerator.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IJwtGenerator.cs",
+              "RelativeToolTip": "Utilities\\Interfaces\\IJwtGenerator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:20:05.036Z",
+              "WhenOpened": "2025-05-17T12:55:41.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IValidationHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Interfaces\\IValidationHelper.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IValidationHelper.cs",
+              "RelativeToolTip": "Utilities\\Interfaces\\IValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:40:46.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\UserHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\UserHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\UserHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:23:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wFAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T06:18:08.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AuthHeaderHelper.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\AuthHeaderHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\AuthHeaderHelper.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\AuthHeaderHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\AuthHeaderHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T06:11:53.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenerateTokenJwt.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeDocumentMoniker": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeToolTip": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:00:42.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T04:13:23.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T06:15:24.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Mail\\EmailService.cs",
               "RelativeDocumentMoniker": "Utilities\\Mail\\EmailService.cs",
@@ -91,51 +194,23 @@
               "RelativeToolTip": "Utilities\\Mail\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:18:58.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:18:58.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ValidationHelper.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\Helpers\\ValidationHelper.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
-              "RelativeToolTip": "Utilities\\Helpers\\ValidationHelper.cs",
+              "DocumentIndex": 8,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Utilities\\Mail\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
+              "RelativeToolTip": "Utilities\\Mail\\SmtpSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:18:08.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:20:05.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PasswordHelper.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\PasswordHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\Helpers\\PasswordHelper.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\PasswordHelper.cs",
-              "RelativeToolTip": "Utilities\\Helpers\\PasswordHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:15:24.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthHeaderHelper.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\AuthHeaderHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\Helpers\\AuthHeaderHelper.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Helpers\\AuthHeaderHelper.cs",
-              "RelativeToolTip": "Utilities\\Helpers\\AuthHeaderHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:11:53.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IPasswordHelper.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IPasswordHelper.cs",
               "RelativeDocumentMoniker": "Utilities\\Interfaces\\IPasswordHelper.cs",
@@ -143,25 +218,11 @@
               "RelativeToolTip": "Utilities\\Interfaces\\IPasswordHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:11:42.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:11:42.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T04:13:23.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IDatetimeHelper.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IDatetimeHelper.cs",
               "RelativeDocumentMoniker": "Utilities\\Interfaces\\IDatetimeHelper.cs",
@@ -169,12 +230,11 @@
               "RelativeToolTip": "Utilities\\Interfaces\\IDatetimeHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:11:46.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:11:46.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IAuthHeaderHelper.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IAuthHeaderHelper.cs",
               "RelativeDocumentMoniker": "Utilities\\Interfaces\\IAuthHeaderHelper.cs",
@@ -182,25 +242,11 @@
               "RelativeToolTip": "Utilities\\Interfaces\\IAuthHeaderHelper.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:11:38.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:11:38.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenerateTokenJwt.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "RelativeDocumentMoniker": "Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "RelativeToolTip": "Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T05:00:42.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "Utilities\\Interfaces\\IEmailService.cs",
@@ -208,12 +254,11 @@
               "RelativeToolTip": "Utilities\\Interfaces\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T06:13:41.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T06:13:41.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AuthDto.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
@@ -225,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CredencialesDto.cs",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
@@ -237,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\Encarte1817\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",

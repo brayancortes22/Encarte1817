@@ -7,16 +7,19 @@
     "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
         "projectName": "Business",
+        "projectPath": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\14-em0005Ia\\Source\\Repos\\Encarte1817\\Business\\obj\\",
         "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+          "C:\\Users\\14-em0005Ia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "configFilePaths": [
+          "C:\\Users\\14-em0005Ia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Users\\sedmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -65,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
