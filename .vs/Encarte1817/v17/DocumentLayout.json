@@ -1,30 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\interfaces\\ivalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\interfaces\\ivalidationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\iroleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iroleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\entity\\dtos\\authdto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\authdto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,109 +74,196 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SwtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
-              "RelativeDocumentMoniker": "Utilities\\Mail\\SwtpSettings.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
-              "RelativeToolTip": "Utilities\\Mail\\SwtpSettings.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:37:28.798Z",
-              "EditorCaption": ""
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BaseData.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\BaseDate\\BaseData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\BaseDate\\BaseData.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\BaseDate\\BaseData.cs",
-              "RelativeToolTip": "Data\\Implements\\BaseDate\\BaseData.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "Utilities\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:18:01.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwEsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:16:55.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RolUser.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Model\\RolUser.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Model\\RolUser.cs",
-              "RelativeToolTip": "Entity\\Model\\RolUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:50:23.698Z",
+              "WhenOpened": "2025-05-17T16:38:39.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
-              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "IValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IValidationHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Interfaces\\IValidationHelper.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IValidationHelper.cs",
+              "RelativeToolTip": "Utilities\\Interfaces\\IValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T21:20:21.967Z",
+              "WhenOpened": "2025-05-17T16:15:17.161Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "86adf4e8-f961-4162-a0d4-475827f72541",
-        "Display": 0,
-        "X": 204,
-        "Y": 5,
-        "Width": 1562,
-        "Height": 982,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\AUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\AUserData.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\AUserData.cs",
-              "RelativeToolTip": "Data\\Implements\\UserDate\\AUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
+              "Title": "RoleUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleUserBusiness.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:08:41.001Z",
+              "WhenOpened": "2025-05-17T13:20:52.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\BaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\BaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business\\Implements",
+              "WhenOpened": "2025-05-17T13:21:34.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "Business\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:19:08.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:19:22.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRoleUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IRoleUserBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:19:26.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleBusiness.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business\\Implements",
+              "WhenOpened": "2025-05-17T13:21:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleBusiness.cs",
+              "ToolTip": "Business/Interfaces/IRoleBusiness.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business\\Interfaces",
+              "OverriddenToolTip": "Business/Interfaces/IRoleBusiness.cs",
+              "WhenOpened": "2025-05-17T13:19:28.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:19:29.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IBaseBusiness.cs",
+              "ToolTip": "Business/Interfaces/IBaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Business\\Interfaces",
+              "OverriddenToolTip": "Business/Interfaces/IBaseBusiness.cs",
+              "WhenOpened": "2025-05-17T13:19:31.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:19:32.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ABaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\ABaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\ABaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:21:40.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T14:27:32.027Z",
               "EditorCaption": ""
             }
           ]

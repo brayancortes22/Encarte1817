@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace Data.Implements.BaseDate
 {
@@ -31,10 +32,11 @@ namespace Data.Implements.BaseDate
         public abstract Task<List<T>> GetAllAsync();
         public abstract Task<T> GetByIdAsync(int id);
         public abstract Task<T> CreateAsync(T entity);
-        public abstract Task UpdateAsync(T entity);
-        public abstract Task DeleteAsync(int id);
+        public abstract Task<T> UpdateAsync(T entity);
+
+        public abstract Task<bool> DeleteAsync(int id);
 
 
- 
+
     }
 }

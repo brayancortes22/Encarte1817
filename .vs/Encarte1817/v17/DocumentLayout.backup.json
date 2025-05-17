@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\auserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedate\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\diego alejandro\\desktop\\encarte\\encarte1817\\entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,12 +49,21 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SwtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
+              "RelativeDocumentMoniker": "Utilities\\Mail\\SwtpSettings.cs",
+              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
+              "RelativeToolTip": "Utilities\\Mail\\SwtpSettings.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T09:37:28.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BaseData.cs",
               "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\BaseDate\\BaseData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\BaseDate\\BaseData.cs",
@@ -63,20 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\Class1.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\Class1.cs",
-              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\Class1.cs",
-              "RelativeToolTip": "Data\\Implements\\UserDate\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
+              "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:16:55.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RolUser.cs",
               "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Entity\\Model\\RolUser.cs",
               "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
@@ -89,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IUserData.cs",
               "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
               "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
               "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T21:20:21.967Z",
               "EditorCaption": ""
@@ -123,13 +136,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AUserData.cs",
               "DocumentMoniker": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\AUserData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\AUserData.cs",
               "ToolTip": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Data\\Implements\\UserDate\\AUserData.cs",
               "RelativeToolTip": "Data\\Implements\\UserDate\\AUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:08:41.001Z",
               "EditorCaption": ""

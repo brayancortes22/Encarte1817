@@ -9,6 +9,7 @@ using Business.Services;
 using Entity.Model;
 using Entity.Dtos.RolDTO;
 using Business.Interfaces;
+using Data.Interfaces;
 
 
 namespace Business.Implements
@@ -46,7 +47,9 @@ namespace Business.Implements
             return await _rolData.PatchRolAsync(dto.Id, dto.Name);
         }
 
-
+        ///<summary>
+        /// Desactiva un rol en la base de datos
+        /// </summary>
         public async Task<bool> DeleteLogicRolAsync(int id)
         {
             if (id <= 0)

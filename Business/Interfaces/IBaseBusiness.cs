@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Data.Interfaces;
 
 namespace Business.Interfaces
 {
-    public interface IBaseBusiness<TDto, TEntity> where TEntity : class
+    public interface IBaseBusiness<TDto, TEntity> where TEntity : class , IBaseData<TEntity>
     {
         /// <summary>
         /// Obtiene todas las entidades desde la base de datos.

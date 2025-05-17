@@ -1,4 +1,6 @@
 ﻿using System;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace Utilities.Interfaces
 {
@@ -49,6 +51,9 @@ namespace Utilities.Interfaces
         /// <returns>True si es válido, False en caso contrario</returns>
         bool IsValidIdentityNumber(string identityNumber);
 
-        
+
+        Task<ValidationResult> Validate<T>(T dto);
+
+
     }
 }

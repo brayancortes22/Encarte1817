@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Dapper.SqlMapper;
 
 namespace Data.Implements.BaseDate
 {
@@ -32,20 +33,22 @@ namespace Data.Implements.BaseDate
             return entity;
         }
 
-        public override async Task UpdateAsync(T entity)
+        public override async Task<T> UpdateAsync(T entity)
         {
-            _dbSet.Update(entity);
+            _context.Set<T>().Update(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
-        public override async Task DeleteAsync(int id)
+
+        public override  async Task<bool> DeleteAsync(int id)
         {
-            var entity = await _dbSet.FindAsync(id);
-            if (entity != null)
-            {
-                _dbSet.Remove(entity);
-                await _context.SaveChangesAsync();
-            }
+            var entity = await _context.Set<T>().FindAsync(id);
+            if (entity == null) return false;
+
+            _context.Set<T>().Remove(entity);
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }

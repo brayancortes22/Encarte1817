@@ -1,10 +1,10 @@
 using System;
-using FluentValidation.Results;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using FluentValidation;
+using FluentValidation.Results;
 using Utilities.Interfaces;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.Practices.EnterpriseLibrary.Validation;
 
 namespace Utilities.Helpers
 {
@@ -15,6 +15,25 @@ namespace Utilities.Helpers
     /// </summary>
     public class ValidationHelper : IValidationHelper
     {
+        private readonly IValidatorFactory _validatorFactory;
+
+        /// <summary>
+        /// Constructor que inicializa una nueva instancia de ValidationHelper
+        /// </summary>
+        /// <param name="validatorFactory">Factory para obtener validadores de FluentValidation</param>
+        public ValidationHelper(IValidatorFactory validatorFactory)
+        {
+            _validatorFactory = validatorFactory ?? throw new ArgumentNullException(nameof(validatorFactory));
+        }
+
+        /// <summary>
+        /// Verifica si un número de teléfono tiene un formato válido.
+        /// </summary>
+        /// <param name="phoneNumber">El número de teléfono a validar.</param>
+        /// <returns>
+        /// True si el número de teléfono tiene un formato válido;
+        /// False si es nulo, vacío o no cumple con el formato esperado.
+        /// </returns>
         public bool IsValidPhoneNumber(string phoneNumber)
         {
             if (string.IsNullOrWhiteSpace(phoneNumber))
@@ -26,6 +45,14 @@ namespace Utilities.Helpers
             return regex.IsMatch(normalizedPhone);
         }
 
+        /// <summary>
+        /// Verifica si una contraseña cumple con los criterios de seguridad establecidos.
+        /// </summary>
+        /// <param name="password">La contraseña a validar.</param>
+        /// <returns>
+        /// True si la contraseña es considerada fuerte;
+        /// False si es nula, vacía o no cumple con los requisitos de seguridad.
+        /// </returns>
         public bool IsStrongPassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password) || password.Length < 8)
@@ -39,6 +66,14 @@ namespace Utilities.Helpers
             return hasUppercase && hasLowercase && hasDigit && hasSpecialChar;
         }
 
+        /// <summary>
+        /// Verifica si una URL tiene un formato válido y utiliza el protocolo HTTP o HTTPS.
+        /// </summary>
+        /// <param name="url">La URL a validar.</param>
+        /// <returns>
+        /// True si la URL tiene un formato válido y usa un protocolo soportado;
+        /// False si es nula, vacía o no cumple con los requisitos.
+        /// </returns>
         public bool IsValidUrl(string url)
         {
             if (string.IsNullOrWhiteSpace(url))
@@ -48,6 +83,14 @@ namespace Utilities.Helpers
                 && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
         }
 
+        /// <summary>
+        /// Verifica si una cadena representa una dirección IP válida (IPv4 o IPv6).
+        /// </summary>
+        /// <param name="ipAddress">La dirección IP a validar.</param>
+        /// <returns>
+        /// True si la cadena representa una dirección IP válida;
+        /// False si es nula, vacía o no tiene un formato correcto de IPv4 o IPv6.
+        /// </returns>
         public bool IsValidIp(string ipAddress)
         {
             if (string.IsNullOrWhiteSpace(ipAddress))
@@ -72,6 +115,14 @@ namespace Utilities.Helpers
             return ipv6Regex.IsMatch(ipAddress);
         }
 
+        /// <summary>
+        /// Verifica si un número de tarjeta de crédito es válido utilizando el algoritmo de Luhn.
+        /// </summary>
+        /// <param name="cardNumber">El número de tarjeta de crédito a validar.</param>
+        /// <returns>
+        /// True si el número de tarjeta de crédito es válido según el algoritmo de Luhn;
+        /// False si es nulo, vacío o no pasa la validación.
+        /// </returns>
         public bool IsValidCreditCard(string cardNumber)
         {
             if (string.IsNullOrWhiteSpace(cardNumber))
@@ -100,6 +151,14 @@ namespace Utilities.Helpers
             return (sum % 10 == 0);
         }
 
+        /// <summary>
+        /// Verifica si un número de identificación personal tiene un formato válido.
+        /// </summary>
+        /// <param name="identityNumber">El número de identificación a validar.</param>
+        /// <returns>
+        /// True si el número de identificación tiene un formato potencialmente válido;
+        /// False si es nulo, vacío o no cumple con los criterios básicos de validación.
+        /// </returns>
         public bool IsValidIdentityNumber(string identityNumber)
         {
             if (string.IsNullOrWhiteSpace(identityNumber))
@@ -113,17 +172,22 @@ namespace Utilities.Helpers
             return normalizedId.All(c => char.IsLetterOrDigit(c));
         }
 
-
-        public ValidationResult Validate<T>(T dto)
+        /// <summary>
+        /// Valida un objeto DTO utilizando los validadores configurados en FluentValidation.
+        /// </summary>
+        /// <typeparam name="T">Tipo del objeto a validar</typeparam>
+        /// <param name="dto">Objeto a validar</param>
+        /// <returns>Resultado de la validación</returns>
+        public async Task<ValidationResult> Validate<T>(T dto)
         {
             if (dto == null)
                 throw new ArgumentNullException(nameof(dto));
 
-            var validator = ValidatorFactory.GetValidator<T>();
+            var validator = _validatorFactory.GetValidator<T>();
             if (validator == null)
-                throw new InvalidOperationException($"No se encontró un validador para el tipo {typeof(T).Name}");
+                return new ValidationResult(); // Devuelve un resultado vacío si no hay validador
 
-            return validator.Validate(dto);
+            return await validator.ValidateAsync(dto);
         }
     }
 }

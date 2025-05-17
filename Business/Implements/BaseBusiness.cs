@@ -30,15 +30,16 @@ namespace Business.Implements
             
         }
 
-        protected void EnsureValid(TDto dto)
+        protected async Task EnsureValid(TDto dto)
         {
-            var validationResult = _helpers.Validate(dto);
+            var validationResult = await _helpers.Validate(dto);
             if (!validationResult.IsValid)
             {
                 var errors = string.Join(", ", validationResult.Errors);
                 throw new ArgumentException($"Validación fallida: {errors}");
             }
         }
+
 
         public override async Task<IEnumerable<TEntity>> GetAllAsync()
         {
