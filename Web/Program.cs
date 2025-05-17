@@ -1,15 +1,71 @@
+using System.Text;
 using Entity.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearior;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Web.Middleware;
 using Web.ServiceExtension;
+using Business.Interfaces;
+using Business.Implements;
+using Business.Services;
+using Data.Interfaces;
+using Data.Implements;
+using Web.Services;
+using Entity.Dtos.RolDTO;
+using Entity.Dtos.RolUserDTO;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddControllers();
 
-// Add application services (business, data, validators)
+// Registro de servicios genéricos
+builder.Services.AddScoped(typeof(IGenericData<>), typeof(GenericData<>));
+builder.Services.AddScoped(typeof(IBaseBusiness<,>), typeof(BaseBusiness<,>));
+
+// Registro de servicios específicos para User
+builder.Services.AddScoped<IUserData, UserData>();
+builder.Services.AddScoped<IUserBusiness, UserBusiness>();
+
+// Registro de servicios específicos para Role
+builder.Services.AddScoped<IRolData, RolData>();
+builder.Services.AddScoped<IRolBusiness, RolBusiness>();
+
+// Registro de servicios específicos para RoleUser
+builder.Services.AddScoped<IRolUserData, RolUserData>();
+builder.Services.AddScoped<IRoleUserBusiness, RoleUserBusiness>();
+
+// Registro de servicios de autenticación
+builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+// Configuración de autenticación JWT
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtSettings:Key"]);
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = true,
+        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
+// Add application services (validators, CORS, etc.)
 builder.Services.AddApplicationServices(builder.Configuration);
+
+// Add DbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add OpenAPI/Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -36,6 +92,8 @@ app.UseCors("AllowSpecificOrigins");
 
 app.UseHttpsRedirection();
 
+// Agregar autenticación
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
