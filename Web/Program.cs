@@ -1,17 +1,28 @@
+using Microsoft.EntityFrameworkCore;
+using Web.ServiceExtension;
+using Entity.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Agregar servicios al contenedor.
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configurar la conexión a la base de datos
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Registrar todos los servicios utilizando la extensión
+builder.Services.ConfigureServices();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar el pipeline de solicitudes HTTP.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
