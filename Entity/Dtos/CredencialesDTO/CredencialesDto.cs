@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity.Dtos.CredencialesDto
+namespace Entity.Dtos.CredencialesDTO
 {
     public  class CredencialesDto
     {
