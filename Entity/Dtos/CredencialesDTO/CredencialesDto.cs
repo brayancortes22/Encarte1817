@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity.Dtos.CredencialesDto
+
+namespace Entity.Dtos.CredencialesDTO
 {
-    public  class CredencialesDto
+    public class CredencialesDto
     {
         public int Id { get; set; }
-        public string Email { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
+        public required string Email { get; set; }
+        public required string Password { get; set; }
+
     }
 }
