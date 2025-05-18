@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Business.Services;
 using Business.Interfaces;
+using Business.Implements;
 
 internal class Program
 {
@@ -33,7 +34,7 @@ internal class Program
 
         // Registro de servicios gen�ricos
         builder.Services.AddScoped(typeof(IBaseData<>), typeof(BaseData<>));
-        builder.Services.AddScoped(typeof(IBaseBusiness<,>), typeof(BaseBusiness<,>));
+        builder.Services.AddScoped(typeof(IBaseBusiness<,>), typeof(ABaseBusiness<,>));
 
         // Registro de servicios espec�ficos para User
         builder.Services.AddScoped<IUserData, UserData>();

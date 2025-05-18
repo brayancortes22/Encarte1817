@@ -8,7 +8,7 @@ namespace Business.Interfaces
     /// Define los métodos de negocio especifícos para la gestión de roles.
     /// Hereda operaciones CRUD genéricas de <see cref="IBaseBusiness{Rol, RolDto}"/>.
     //</summary>
-    public interface IRolBusiness : IBaseBusiness<Rol, RolDto>
+    public interface IRolBusiness : IBaseBusiness<UpdateRolDto, Rol>
     {
 
         /// <summary>
@@ -23,6 +23,6 @@ namespace Business.Interfaces
         /// </summary>
         /// <param name="id">ID del rol a desactivar.</param>
         ///<returns>True si el borrado lógico fue exitoso; de lo contario false</returns>
-        Task<bool> DeleteLogicRolAsync(int id);
+        Task<bool> DeleteLogicRolAsync(DeleteLogiRolDto dto);
     }
 }

@@ -12,7 +12,10 @@ using FluentValidation.Results;
 
 namespace Business.Implements
 {
-    public class BaseBusiness<TDto, TEntity> : ABaseBusiness<TEntity>, IBaseBusiness<TDto, TEntity>
+    /// <sumary>
+    ///
+    </sumary>
+    public class BaseBusiness<TDto, TEntity> : ABaseBusiness<TDto, TEntity>
         where TEntity : class
     {
         protected readonly IMapper _mapper;
@@ -27,7 +30,7 @@ namespace Business.Implements
         {
             _mapper = mapper;
             _helpers = helpers;
-            
+
         }
 
         protected async Task EnsureValid(TDto dto)
@@ -40,13 +43,13 @@ namespace Business.Implements
             }
         }
 
-
-        public override async Task<IEnumerable<TEntity>> GetAllAsync()
+        public override async Task<List<TDto>> GetAllAsync()
         {
             try
             {
+                var entities = await _repository.GetAllAsync();
                 _logger.LogInformation($"Obteniendo todos los registros de {typeof(TEntity).Name}");
-                return await _repository.GetAllAsync();
+                return _mapper.Map<IList<TDto>>(entities).ToList();
             }
             catch (Exception ex)
             {
@@ -55,27 +58,13 @@ namespace Business.Implements
             }
         }
 
-        public async Task<IEnumerable<TDto>> GetAllDtoAsync()
+        public override async Task<TDto> GetByIdAsync(int id)
         {
             try
             {
-                _logger.LogInformation($"Mapeando todos los registros de {typeof(TEntity).Name} a DTOs");
-                var entities = await GetAllAsync();
-                return _mapper.Map<IEnumerable<TDto>>(entities);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al mapear registros de {typeof(TEntity).Name} a DTOs: {ex.Message}");
-                throw;
-            }
-        }
-
-        public override async Task<TEntity> GetByIdAsync(int id)
-        {
-            try
-            {
+                var entities = await _repository.GetByIdAsync(id);
                 _logger.LogInformation($"Obteniendo {typeof(TEntity).Name} con ID: {id}");
-                return await _repository.GetByIdAsync(id);
+                return _mapper.Map<TDto>(entities);
             }
             catch (Exception ex)
             {
@@ -84,46 +73,17 @@ namespace Business.Implements
             }
         }
 
-        public async Task<TDto> GetDtoByIdAsync(int id)
+
+        public  override async Task<TDto> CreateAsync(TDto dto)
         {
             try
             {
-                _logger.LogInformation($"Mapeando {typeof(TEntity).Name} con ID: {id} a DTO");
-                var entity = await GetByIdAsync(id);
-                return _mapper.Map<TDto>(entity);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al mapear {typeof(TEntity).Name} con ID {id} a DTO: {ex.Message}");
-                throw;
-            }
-        }
-
-        public override async Task<TEntity> CreateAsync(TEntity entity)
-        {
-            try
-            {
-                _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name}");
-                return await _repository.CreateAsync(entity);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al crear {typeof(TEntity).Name}: {ex.Message}");
-                throw;
-            }
-        }
-
-        public async Task<TDto> CreateAsync(TDto dto)
-        {
-            try
-            {
-                _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name} desde DTO");
-
                 EnsureValid(dto);
 
                 var entity = _mapper.Map<TEntity>(dto);
-                var result = await CreateAsync(entity);
-                return _mapper.Map<TDto>(result);
+                entity = await _repository.CreateAsync(entity);
+                _logger.LogInformation($"Creando nuevo {typeof(TEntity).Name}");
+                return _mapper.Map<TDto>(entity);
             }
             catch (Exception ex)
             {
@@ -132,21 +92,8 @@ namespace Business.Implements
             }
         }
 
-        public override async Task<TEntity> UpdateAsync(TEntity entity)
-        {
-            try
-            {
-                _logger.LogInformation($"Actualizando {typeof(TEntity).Name}");
-                return await _repository.UpdateAsync(entity);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al actualizar {typeof(TEntity).Name}: {ex.Message}");
-                throw;
-            }
-        }
 
-        public async Task<TDto> UpdateAsync(TDto dto)
+        public override async Task<TDto> UpdateAsync(TDto dto)
         {
             try
             {
@@ -155,8 +102,7 @@ namespace Business.Implements
                 EnsureValid(dto);
 
                 var entity = _mapper.Map<TEntity>(dto);
-                var result = await UpdateAsync(entity);
-                return _mapper.Map<TDto>(result);
+                return _mapper.Map<TDto>(entity);
             }
             catch (Exception ex)
             {
