@@ -14,6 +14,6 @@ namespace Data.Interfaces
         Task<User> GetByEmailAsync(string email);
         Task<bool> Active(int id,bool status);
         Task<bool> UpdatePartial(User user);
-        Task<bool> AssingRolAsync(string userId, int rolId);
+        Task<bool> AssingRolAsync(int userId, int rolId);
     }
 }

@@ -1,15 +1,13 @@
-﻿using Entity.Context;
-using Entity.Model;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mail;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Data.Implements.BaseDate;
 using Data.Interfaces;
+using Entity.Context;
+using Entity.Model;
+
+
+
+
+
 
 namespace Data.Implements.UserDate
 {   
@@ -17,7 +15,9 @@ namespace Data.Implements.UserDate
     {
 
         public UserData(ApplicationDbContext context) : base(context)
+            
         {
+            
         }
 
         public async Task<User> LoginAsync(string email, string password)
