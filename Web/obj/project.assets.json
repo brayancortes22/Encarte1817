@@ -1303,6 +1303,7 @@
         "dependencies": {
           "Dapper": "2.1.66",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.5",
+          "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5"
         },
         "compile": {
