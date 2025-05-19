@@ -3,6 +3,7 @@ using Data.Implements.BaseDate;
 using Data.Interfaces;
 using Entity.Context;
 using Entity.Model;
+using Microsoft.EntityFrameworkCore;
 
 
 
@@ -64,14 +65,30 @@ namespace Data.Implements.UserDate
             await _context.SaveChangesAsync();
             return true;
         }
-        public async Task<bool> AssingRolAsync(string userId, int rolId)
+        public async Task<bool> AssingRolAsync(int userId, int rolId)
         {
             var user = await _context.Users.FindAsync(userId);
             if (user == null) return false;
-            user.RoleId = rolId;
-            _context.Users.Update(user);
+
+            var rol = await _context.Roles.FindAsync(rolId);
+            if (rol == null) return false;
+
+            // Crear una nueva relación RolUser incluyendo los miembros requeridos
+            var rolUser = new RolUser
+            {
+                UserId = userId,
+                RolId = rolId,
+                Status = true,
+                CreatedAt = DateTime.UtcNow,
+                User = user,
+                Rol = rol
+            };
+
+            await _context.RolUsers.AddAsync(rolUser);
             await _context.SaveChangesAsync();
             return true;
         }
+
+
     }
 }
