@@ -8,7 +8,7 @@ namespace Business.Interfaces
     /// Define los métodos de negocio especifícos para la gestión de roles.
     /// Hereda operaciones CRUD genéricas de <see cref="IBaseBusiness{Rol, RolDto}"/>.
     //</summary>
-    public interface IRolBusiness : IBaseBusiness<UpdateRolDto, Rol>
+    public interface IRolBusiness : IBaseBusiness<RolDto, Rol>
     {
 
         /// <summary>

@@ -10,7 +10,7 @@ namespace Business.Interfaces
     /// Define los métodos de negocio específicos para la gestión de relaciones entre usuarios y roles.
     /// Hereda operaciones CRUD genéricas de  <see cref="IBaseBusiness{RolUser, RolUserDto}"/>.
     ///</summary>
-    public interface IRoleUserBusiness : IBaseBusiness<UpdateRolUserDto, RolUser>
+    public interface IRoleUserBusiness : IBaseBusiness<RolUserDto, RolUser>
     {
         /// <summary>
         /// Actualiza parcialmente la relación entre un usuario y un rol.
@@ -18,6 +18,6 @@ namespace Business.Interfaces
         /// <param name="id">ID de la relación usuario-rol a actualizar.</param>
         /// <param name="roleId">Nuevo ID del rol a asignar al usuario.</param>
         ///<returns>True si la actualización fue exitosa; de lo contario false</returns>
-        Task<bool> UpdateParcialRoleUserAsync(UpdateRolUserDto dto);
+        Task<bool> UpdateParcialRoleUserAsync(int id,int roleId, UpdateRolUserDto dto);
     }
 }

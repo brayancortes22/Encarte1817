@@ -2,6 +2,7 @@
 using Entity.Dtos.RolDTO;
 using Entity.Model;
 using Web.Controllers.Interface;
+using Business.Interfaces;
 
 namespace Web.Controllers.Implements
 {
@@ -14,7 +15,6 @@ namespace Web.Controllers.Implements
             : base(rolBusiness, logger)
         {
             _rolBusiness = rolBusiness;
-            _logger = logger;
         }
 
         protected override int GetEntityId(RolDto dto)
@@ -23,7 +23,7 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPatch]
-        public async Task<IActionResult> UpdatePartialRole([FromBody] RolUpdateDto dto)
+        public async Task<IActionResult> UpdatePartialRole([FromBody]  UpdateRolDto dto)
         {
             try
             {
@@ -50,7 +50,8 @@ namespace Web.Controllers.Implements
         {
             try
             {
-                var result = await _rolBusiness.DeleteLogicRolAsync(id);
+                var dto = new DeleteLogiRolDto { Id = id, Status = false }; // Se inicializa la propiedad requerida 'Status'
+                var result = await _rolBusiness.DeleteLogicRolAsync(dto);
                 if (!result)
                     return NotFound($"Rol con ID {id} no encontrado");
 
@@ -67,5 +68,6 @@ namespace Web.Controllers.Implements
                 return StatusCode(500, "Error interno del servidor");
             }
         }
+
     }
 }
