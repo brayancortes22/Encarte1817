@@ -20,8 +20,8 @@ namespace Data.Implements.RolUserData
             var existingRolUser = await _context.RolUsers.FindAsync(rolUser.Id);
             if (existingRolUser == null) return false;
             // Update only the fields that are not null
-            if (rolUser.RolId > 0) existingRolUser.RolId= rolUser.RolId;
-            if (rolUser.UserId > 0) existingRolUser.UserId= rolUser.UserId;
+            if (rolUser.RolId > 0) existingRolUser.RolId = rolUser.RolId;
+            if (rolUser.UserId > 0) existingRolUser.UserId = rolUser.UserId;
             _context.Users.Update(existingRolUser);
             await _context.SaveChangesAsync();
             return true;

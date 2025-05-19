@@ -1,6 +1,9 @@
 using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using FluentValidation;
+using FluentValidation.Results;
 using Utilities.Interfaces;
 
 namespace Utilities.Helpers
@@ -10,8 +13,19 @@ namespace Utilities.Helpers
     /// para la validación de diferentes tipos de datos como números telefónicos,
     /// contraseñas, URLs, direcciones IP, tarjetas de crédito y documentos de identidad.
     /// </summary>
-    public class VaidationHelper : IValidationHelper
+    public class ValidationHelper : IValidationHelper
     {
+        private readonly IValidatorFactory _validatorFactory;
+
+        /// <summary>
+        /// Constructor que inicializa una nueva instancia de ValidationHelper
+        /// </summary>
+        /// <param name="validatorFactory">Factory para obtener validadores de FluentValidation</param>
+        public ValidationHelper(IValidatorFactory validatorFactory)
+        {
+            _validatorFactory = validatorFactory ?? throw new ArgumentNullException(nameof(validatorFactory));
+        }
+
         /// <summary>
         /// Verifica si un número de teléfono tiene un formato válido.
         /// </summary>
@@ -20,20 +34,13 @@ namespace Utilities.Helpers
         /// True si el número de teléfono tiene un formato válido;
         /// False si es nulo, vacío o no cumple con el formato esperado.
         /// </returns>
-        /// <remarks>
-        /// Se consideran válidos los números que contengan entre 8 y 15 dígitos,
-        /// pudiendo incluir un signo "+" al inicio para formato internacional.
-        /// Los espacios, guiones y paréntesis son ignorados durante la validación.
-        /// </remarks>
         public bool IsValidPhoneNumber(string phoneNumber)
         {
             if (string.IsNullOrWhiteSpace(phoneNumber))
                 return false;
 
-            // Eliminar espacios, guiones y paréntesis para normalizar
             var normalizedPhone = Regex.Replace(phoneNumber, @"[\s\-\(\)]", string.Empty);
-            
-            // Verificar si tiene un formato internacional válido (ejemplos simples)
+
             var regex = new Regex(@"^\+?[0-9]{8,15}$");
             return regex.IsMatch(normalizedPhone);
         }
@@ -46,19 +53,11 @@ namespace Utilities.Helpers
         /// True si la contraseña es considerada fuerte;
         /// False si es nula, vacía o no cumple con los requisitos de seguridad.
         /// </returns>
-        /// <remarks>
-        /// Una contraseña fuerte debe tener al menos 8 caracteres y contener:
-        /// - Al menos una letra mayúscula
-        /// - Al menos una letra minúscula
-        /// - Al menos un dígito
-        /// - Al menos un carácter especial (no alfanumérico)
-        /// </remarks>
         public bool IsStrongPassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password) || password.Length < 8)
                 return false;
 
-            // Verificar requisitos comunes de contraseña fuerte
             bool hasUppercase = password.Any(char.IsUpper);
             bool hasLowercase = password.Any(char.IsLower);
             bool hasDigit = password.Any(char.IsDigit);
@@ -80,7 +79,7 @@ namespace Utilities.Helpers
             if (string.IsNullOrWhiteSpace(url))
                 return false;
 
-            return Uri.TryCreate(url, UriKind.Absolute, out Uri uriResult) 
+            return Uri.TryCreate(url, UriKind.Absolute, out Uri uriResult)
                 && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
         }
 
@@ -97,13 +96,22 @@ namespace Utilities.Helpers
             if (string.IsNullOrWhiteSpace(ipAddress))
                 return false;
 
-            // Validar IPv4
-            var ipv4Regex = new Regex(@"^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$");
+            var ipv4Regex = new Regex(@"^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}" +
+                                      @"(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$");
+
             if (ipv4Regex.IsMatch(ipAddress))
                 return true;
 
-            // Validar IPv6 (simplificado)
-            var ipv6Regex = new Regex(@"^(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))$");
+            var ipv6Regex = new Regex(@"^([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,7}:$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}$" +
+                                      @"|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}$" +
+                                      @"|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})$" +
+                                      @"|:((:[0-9a-fA-F]{1,4}){1,7}|:)$");
+
             return ipv6Regex.IsMatch(ipAddress);
         }
 
@@ -115,24 +123,16 @@ namespace Utilities.Helpers
         /// True si el número de tarjeta de crédito es válido según el algoritmo de Luhn;
         /// False si es nulo, vacío o no pasa la validación.
         /// </returns>
-        /// <remarks>
-        /// El método elimina espacios y guiones del número antes de validarlo,
-        /// verifica que solo contenga dígitos y aplica el algoritmo de Luhn para
-        /// determinar si es un número de tarjeta potencialmente válido.
-        /// </remarks>
         public bool IsValidCreditCard(string cardNumber)
         {
             if (string.IsNullOrWhiteSpace(cardNumber))
                 return false;
 
-            // Eliminar espacios y guiones
             var normalizedCard = Regex.Replace(cardNumber, @"[\s\-]", string.Empty);
-            
-            // Verificar que solo contenga dígitos
+
             if (!normalizedCard.All(char.IsDigit))
                 return false;
-                
-            // Implementar algoritmo de Luhn (validación básica de tarjetas)
+
             int sum = 0;
             bool alternate = false;
             for (int i = normalizedCard.Length - 1; i >= 0; i--)
@@ -147,7 +147,7 @@ namespace Utilities.Helpers
                 sum += n;
                 alternate = !alternate;
             }
-            
+
             return (sum % 10 == 0);
         }
 
@@ -159,31 +159,35 @@ namespace Utilities.Helpers
         /// True si el número de identificación tiene un formato potencialmente válido;
         /// False si es nulo, vacío o no cumple con los criterios básicos de validación.
         /// </returns>
-        /// <remarks>
-        /// Esta es una implementación genérica que debe adaptarse a los formatos específicos
-        /// de identificación de cada país o región. Actualmente verifica:
-        /// - La longitud debe estar entre 8 y 15 caracteres
-        /// - Solo debe contener letras y números
-        /// Los espacios y guiones son eliminados durante la normalización.
-        /// </remarks>
         public bool IsValidIdentityNumber(string identityNumber)
         {
             if (string.IsNullOrWhiteSpace(identityNumber))
                 return false;
-                
-            // Esta es una implementación simple. En un caso real, deberías adaptar
-            // esto al formato de identificación específico de tu país/región
+
             var normalizedId = Regex.Replace(identityNumber, @"[\s\-]", string.Empty);
-            
-            // Verificar longitud adecuada (8-15 caracteres, ajusta según tu caso)
+
             if (normalizedId.Length < 8 || normalizedId.Length > 15)
                 return false;
-                
-            // Aquí puedes implementar algoritmos de validación específicos
-            // por ejemplo, para DNI, NIF, SSN, etc.
-            
-            // Esta es una validación simple de ejemplo
+
             return normalizedId.All(c => char.IsLetterOrDigit(c));
+        }
+
+        /// <summary>
+        /// Valida un objeto DTO utilizando los validadores configurados en FluentValidation.
+        /// </summary>
+        /// <typeparam name="T">Tipo del objeto a validar</typeparam>
+        /// <param name="dto">Objeto a validar</param>
+        /// <returns>Resultado de la validación</returns>
+        public async Task<ValidationResult> Validate<T>(T dto)
+        {
+            if (dto == null)
+                throw new ArgumentNullException(nameof(dto));
+
+            var validator = _validatorFactory.GetValidator<T>();
+            if (validator == null)
+                return new ValidationResult(); // Devuelve un resultado vacío si no hay validador
+
+            return await validator.ValidateAsync(dto);
         }
     }
 }
