@@ -21,7 +21,7 @@ namespace Business.Implements
     /// Contiene la logica de negocio de los metodos especificos para la entidad Rol
     /// Extiende BaseBusiness heredando la logica de negocio de los metodos base 
     /// </summary>
-    public class RolBusiness : BaseBusiness<UpdateRolDto, Rol>, IRolBusiness
+    public class RolBusiness : BaseBusiness< RolDto, Rol>, IRolBusiness
     {
         ///<summary>Proporciona acceso a los metodos de la capa de datos de roles</summary>
         private readonly IRolData _rolData;
