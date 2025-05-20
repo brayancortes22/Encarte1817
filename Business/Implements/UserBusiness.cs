@@ -12,6 +12,7 @@ using Entity.Model;
 using Microsoft.Extensions.Logging;
 using Utilities.Exceptions;
 using Utilities.Interfaces;
+using Utilities.Mail;
 using ValidationException = Utilities.Exceptions.ValidationException;
 
 namespace Business.Implements
@@ -23,11 +24,13 @@ namespace Business.Implements
     public class UserBusiness : BaseBusiness<UserDto, User>, IUserBusiness
     {
         private readonly IUserData _userData;
+        private readonly IEmailService _emailService;
 
-        public UserBusiness(IUserData userData, IMapper mapper, ILogger<UserBusiness> logger, IGenericIHelpers helpers)
+        public UserBusiness(IUserData userData, IMapper mapper, ILogger<UserBusiness> logger, IGenericIHelpers helpers, IEmailService emailService)
             : base(userData, logger, mapper, helpers)
         {
             _userData = userData;
+            _emailService = emailService;
         }
 
         ///<summary>
@@ -152,5 +155,30 @@ namespace Business.Implements
             return await _userData.AssingRolAsync(dto.UserId, dto.RolId);
         }
 
+
+        /// <summary>
+        /// Notifica al usuario mediante correo electrónico sobre la creación de su cuenta.
+        /// </summary>
+        /// <param name="emailDestino">Dirección de correo electrónico del destinatario.</param>
+        /// <param name="nombre">Nombre del usuario para personalizar el mensaje.</param>
+        /// <returns>Una tarea que representa la operación asíncrona.</returns>
+        /// <exception cref="Exception">Se lanza cuando el envío del correo falla.</exception>
+        public async Task NotificarUsuarioAsync(string emailDestino, string nombre)
+        {
+
+            string asunto = "Bienvenido al sistema";
+            string cuerpo = $"Hola {nombre}, tu cuenta ha sido creada con éxito.";
+
+            _logger.LogInformation($"Enviando correo de notificación a {emailDestino}");
+
+            bool enviado = await _emailService.SendEmailAsync(emailDestino, asunto, cuerpo);
+            if (!enviado)
+            {
+                _logger.LogError($"Error al enviar correo de notificación a {emailDestino}");
+                throw new Exception("No se pudo enviar el correo de notificación.");
+            }
+
+            _logger.LogInformation($"Correo de notificación enviado exitosamente a {emailDestino}");
+        }
     }
 }

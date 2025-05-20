@@ -1,106 +1,65 @@
-// Business/Services/AuthService.cs
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 using Business.Interfaces;
-using Data.Interfaces;
 using Entity.Dtos.AuthDTO;
+using Entity.Dtos.CredencialesDTO;
 using Microsoft.Extensions.Logging;
 
 namespace Business.Services
 {
+    /// <summary>
+    /// Implementación del servicio de autenticación que gestiona el proceso de login
+    /// y obtención de tokens JWT.
+    /// </summary>
     public class AuthService : IAuthService
     {
         private readonly IUserBusiness _userBusiness;
         private readonly IJwtService _jwtService;
-        private readonly IRoleUserBusiness _roleUserBusiness;
-        private readonly IRolBusiness _rolBusiness;
-        private readonly IRefreshTokenData _refreshTokenData;
         private readonly ILogger<AuthService> _logger;
 
+        /// <summary>
+        /// Inicializa una nueva instancia del servicio de autenticación.
+        /// </summary>
+        /// <param name="userBusiness">Servicio para operaciones de negocio relacionadas con usuarios.</param>
+        /// <param name="jwtService">Servicio para la generación y validación de tokens JWT.</param>
+        /// <param name="logger">Servicio de logging para registrar eventos y errores.</param>
         public AuthService(
             IUserBusiness userBusiness,
             IJwtService jwtService,
-            IRoleUserBusiness roleUserBusiness,
-            IRolBusiness rolBusiness,
-            IRefreshTokenData refreshTokenData,
             ILogger<AuthService> logger)
         {
             _userBusiness = userBusiness;
             _jwtService = jwtService;
-            _roleUserBusiness = roleUserBusiness;
-            _rolBusiness = rolBusiness;
-            _refreshTokenData = refreshTokenData;
             _logger = logger;
         }
 
-        public async Task<TokenResponseDto> LoginAsync(LoginRequestDto request)
+        /// <summary>
+        /// Autentica a un usuario utilizando sus credenciales y genera un token JWT.
+        /// </summary>
+        /// <param name="credenciales">Credenciales del usuario (email y contraseña).</param>
+        /// <returns>Un objeto AuthDto que contiene el token JWT y su fecha de expiración.</returns>
+        /// <exception cref="UnauthorizedAccessException">Se lanza cuando las credenciales proporcionadas son inválidas.</exception>
+        /// <exception cref="Exception">Se lanza cuando ocurre un error inesperado durante el proceso de autenticación.</exception>
+        public async Task<AuthDto> LoginAsync(CredencialesDto credenciales)
         {
             try
             {
-                // Validar credenciales
-                var isValid = await _userBusiness.ValidateCredentialsAsync(request.Email, request.Password);
-                if (!isValid)
-                {
+                // Verificar las credenciales del usuario
+                var user = await _userBusiness.LoginAsync(credenciales.Email, credenciales.Password);
+
+                // Si no se encontró el usuario o las credenciales son incorrectas
+                if (user == null)
                     throw new UnauthorizedAccessException("Credenciales inválidas");
-                }
 
-                // Obtener el usuario
-                var user = await _userBusiness.GetByEmailAsync(request.Email);
-                if (user == null || !user.Active)
-                {
-                    throw new UnauthorizedAccessException("Usuario no encontrado o inactivo");
-                }
-
-                // Revocar todos los refresh tokens anteriores del usuario
-                await _refreshTokenData.RevokeAllUserTokensAsync(user.Id);
-
-                // Obtener roles del usuario
-                var userRoles = await _roleUserBusiness.GetAllAsync();
-                var userRoleIds = userRoles
-                    .Where(ur => ur.UserId == user.Id)
-                    .Select(ur => ur.RolId)
-                    .ToList();
-
-                // Obtener nombres de roles
-                var roles = (await _rolBusiness.GetAllAsync())
-                    .Where(r => userRoleIds.Contains(r.Id))
-                    .Select(r => r.Name)
-                    .ToList();
-
-                // Generar token
-                return await _jwtService.GenerateTokenAsync(user, roles);
+                // Generar y devolver el token JWT
+                return await _jwtService.GenerateTokenAsync(user);
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error en login: {ex.Message}");
-                throw;
-            }
-        }
+                // Registrar el error para diagnóstico
+                _logger.LogError($"Error durante el login: {ex.Message}");
 
-        public async Task<TokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto request)
-        {
-            try
-            {
-                return await _jwtService.RefreshTokenAsync(request.RefreshToken);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al refrescar token: {ex.Message}");
-                throw;
-            }
-        }
-
-        public async Task<bool> LogoutAsync(int userId)
-        {
-            try
-            {
-                // Revocar todos los refresh tokens del usuario
-                return await _refreshTokenData.RevokeAllUserTokensAsync(userId);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error en logout: {ex.Message}");
+                // Relanzar la excepción para que se maneje en capas superiores
                 throw;
             }
         }
