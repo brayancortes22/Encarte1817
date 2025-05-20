@@ -73,6 +73,14 @@ namespace Business.Interfaces
         /// <returns>Una tarea que representa la operación asíncrona.</returns>
         Task NotificarUsuarioAsync(string emailDestino, string nombre);
 
+        /// <summary>
+        /// Envía un correo electrónico con un enlace para restablecer la contraseña del usuario.
+        /// </summary>
+        /// <param name="email">Dirección de correo electrónico del usuario que solicita recuperar su contraseña.</param>
+        /// <returns>Una tarea que representa la operación asíncrona.</returns>
+        Task EnviarCorreoRecuperacionAsync(string email);
+
+
     }
 }
     

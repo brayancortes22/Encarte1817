@@ -34,13 +34,13 @@ namespace Utilities.Interfaces
         /// </summary>
         /// <param name="user">El usuario</param>
         /// <returns>El nombre completo del usuario</returns>
-        string GetUserFullName(UserDto user);
+       // string GetUserFullName(UserDto user);
 
         /// <summary>
         /// Obtiene las iniciales de un usuario
         /// </summary>
         /// <param name="user">El usuario</param>
         /// <returns>Las iniciales del usuario</returns>
-        string GetUserInitials(UserDto user);
+    //    string GetUserInitials(UserDto user);
     }
 }

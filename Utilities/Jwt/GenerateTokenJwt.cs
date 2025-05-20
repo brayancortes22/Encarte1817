@@ -84,6 +84,55 @@ namespace Utilities.Jwt
                 Expiracion = expiracion
             };
         }
+
+        public string GenerarTokenRecuperacion(User user, int minutosExpiracion = 15)
+        {
+            var claims = new List<Claim>
+    {
+        new Claim("id", user.Id.ToString()),
+        new Claim("email", user.Email),
+        new Claim("tipo", "recuperacion")
+    };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:key"]!));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var expiracion = DateTime.UtcNow.AddMinutes(minutosExpiracion);
+
+            var tokenSeguridad = new JwtSecurityToken(
+                issuer: null,
+                audience: null,
+                claims: claims,
+                expires: expiracion,
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(tokenSeguridad);
+        }
+        public ClaimsPrincipal? ValidateToken(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.UTF8.GetBytes(_configuration["JWT:key"]!); // Usar misma clave que en GeneradorToken
+
+            try
+            {
+                var principal = tokenHandler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero // No se permite margen extra al expirar
+                }, out SecurityToken validatedToken);
+
+                return principal;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
     }
 }
 
