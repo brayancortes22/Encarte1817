@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Business.Services;
 using Business.Interfaces;
 using Business.Implements;
+using System.Text;
+using Entity.Model;
 
 internal class Program
 {
