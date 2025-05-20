@@ -37,7 +37,7 @@ namespace Business.Implements
         /// Obtiene una colecci?n de todas las entidades del tipo especificado.
         /// </summary>
         /// <returns>
-        /// Tarea as?ncrona que representa la operaci?n y contiene una colecci?n de entidades 
+        /// Tarea asincrona que representa la operaci?n y contiene una colecci?n de entidades 
         /// cuando se completa correctamente.
         /// </returns>
         public abstract Task<List<TDto>> GetAllAsync();
@@ -47,7 +47,7 @@ namespace Business.Implements
         /// </summary>
         /// <param name="id">Identificador ?nico de la entidad a recuperar.</param>
         /// <returns>
-        /// Tarea as?ncrona que representa la operaci?n y contiene la entidad solicitada
+        /// Tarea asincrona que representa la operaci?n y contiene la entidad solicitada
         /// cuando se completa correctamente. Puede retornar null si no se encuentra la entidad.
         /// </returns>
         public abstract Task<TDto> GetByIdAsync(int id);
@@ -57,7 +57,7 @@ namespace Business.Implements
         /// </summary>
         /// <param name="entity">Entidad a crear. No debe ser null.</param>
         /// <returns>
-        /// Tarea as?ncrona que representa la operaci?n y contiene la entidad creada con sus
+        /// Tarea asincrona que representa la operaci?n y contiene la entidad creada con sus
         /// valores actualizados (como el ID generado) cuando se completa correctamente.
         /// </returns>
         public abstract Task<TDto> CreateAsync(TDto dto);
@@ -67,7 +67,7 @@ namespace Business.Implements
         /// </summary>
         /// <param name="entity">Entidad con los valores actualizados. No debe ser null.</param>
         /// <returns>
-        /// Tarea as?ncrona que representa la operaci?n y contiene la entidad actualizada
+        /// Tarea asincrona que representa la operaci?n y contiene la entidad actualizada
         /// cuando se completa correctamente.
         /// </returns>
         public abstract Task<TDto> UpdateAsync(TDto dto);
@@ -77,7 +77,7 @@ namespace Business.Implements
         /// </summary>
         /// <param name="id">Identificador ?nico de la entidad a eliminar.</param>
         /// <returns>
-        /// Tarea as?ncrona que representa la operaci?n y contiene un valor booleano que indica
+        /// Tarea asincrona que representa la operaci?n y contiene un valor booleano que indica
         /// si la eliminaci?n fue exitosa (true) o si la entidad no exist?a (false).
         /// </returns>
         public abstract Task<bool> DeleteAsync(int id);

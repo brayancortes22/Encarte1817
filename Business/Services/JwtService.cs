@@ -1,210 +1,100 @@
 // Business/Services/JwtService.cs
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using Business.Interfaces;
-using Data.Interfaces;
 using Entity.Dtos.AuthDTO;
 using Entity.Model;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Utilities.Interfaces;
 
 namespace Business.Services
 {
+    /// <summary>
+    /// Implementación del servicio JWT para la capa de negocio.
+    /// </summary>
     public class JwtService : IJwtService
     {
+        private readonly IJwtGenerator _jwtGenerator;
         private readonly IConfiguration _configuration;
-        private readonly ILogger<JwtService> _logger;
-        private readonly IUserBusiness _userBusiness;
-        private readonly IRolBusiness _rolBusiness;
-        private readonly IRoleUserBusiness _roleUserBusiness;
-        private readonly IRefreshTokenData _refreshTokenData;
 
-        public JwtService(
-            IConfiguration configuration,
-            ILogger<JwtService> logger,
-            IUserBusiness userBusiness,
-            IRolBusiness rolBusiness,
-            IRoleUserBusiness roleUserBusiness,
-            IRefreshTokenData refreshTokenData)
+        /// <summary>
+        /// Constructor del servicio JWT.
+        /// </summary>
+        /// <param name="jwtGenerator">Generador de tokens de la capa de utilidades</param>
+        /// <param name="configuration">Configuración de la aplicación</param>
+        public JwtService(IJwtGenerator jwtGenerator, IConfiguration configuration)
         {
+            _jwtGenerator = jwtGenerator;
             _configuration = configuration;
-            _logger = logger;
-            _userBusiness = userBusiness;
-            _rolBusiness = rolBusiness;
-            _roleUserBusiness = roleUserBusiness;
-            _refreshTokenData = refreshTokenData;
         }
 
-        public async Task<TokenResponseDto> GenerateTokenAsync(User user, IEnumerable<string> roles)
+        /// <summary>
+        /// Genera un token JWT delegando a la capa de utilidades.
+        /// </summary>
+        /// <param name="user">Usuario para el cual generar el token</param>
+        /// <returns>DTO con el token y su fecha de expiración</returns>
+        public async Task<AuthDto> GenerateTokenAsync(User user)
         {
-            try
-            {
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Secret"]);
-                
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Name, user.Username),
-                    new Claim(ClaimTypes.Email, user.Email),
-                };
-                
-                // Agregar roles como claims
-                foreach (var role in roles)
-                {
-                    claims.Add(new Claim(ClaimTypes.Role, role));
-                }
-
-                var tokenDescriptor = new SecurityTokenDescriptor
-                {
-                    Subject = new ClaimsIdentity(claims),
-                    Expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_configuration["Jwt:ExpirationMinutes"])),
-                    SigningCredentials = new SigningCredentials(
-                        new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
-                    Issuer = _configuration["Jwt:Issuer"],
-                    Audience = _configuration["Jwt:Audience"]
-                };
-
-                var token = tokenHandler.CreateToken(tokenDescriptor);
-                var jwtToken = tokenHandler.WriteToken(token);
-                
-                // Generar refresh token y guardar en BD
-                var refreshToken = await SaveRefreshTokenAsync(user.Id);
-
-                return new TokenResponseDto
-                {
-                    AccessToken = jwtToken,
-                    RefreshToken = refreshToken,
-                    ExpiresIn = Convert.ToInt32(_configuration["Jwt:ExpirationMinutes"]) * 60,
-                    TokenType = "Bearer"
-                };
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al generar token: {ex.Message}");
-                throw;
-            }
+            // Delegamos la generación a la capa de utilidades
+            return await _jwtGenerator.GeneradorToken(user);
         }
 
-        private async Task<string> SaveRefreshTokenAsync(int userId)
-        {
-            var refreshToken = new RefreshToken
-            {
-                Token = GenerateRefreshTokenString(),
-                UserId = userId,
-                ExpiryDate = DateTime.UtcNow.AddDays(Convert.ToDouble(_configuration["Jwt:RefreshTokenExpirationDays"])),
-                CreatedAt = DateTime.UtcNow,
-                IsUsed = false,
-                IsRevoked = false
-            };
-
-            await _refreshTokenData.CreateAsync(refreshToken);
-            return refreshToken.Token;
-        }
-
+        /// <summary>
+        /// Valida un token JWT y extrae sus claims.
+        /// </summary>
+        /// <param name="token">Token JWT a validar</param>
+        /// <returns>ClaimsPrincipal con la información del token, o null si es inválido</returns>
         public ClaimsPrincipal ValidateToken(string token)
         {
+            if (string.IsNullOrEmpty(token))
+                return null;
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_configuration["JWT:key"]);
+
             try
             {
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Secret"]);
-                
-                var tokenValidationParameters = new TokenValidationParameters
+                // Configurar los parámetros de validación
+                var validationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = true,
-                    ValidIssuer = _configuration["Jwt:Issuer"],
-                    ValidateAudience = true,
-                    ValidAudience = _configuration["Jwt:Audience"],
-                    ValidateLifetime = true,
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
                     ClockSkew = TimeSpan.Zero
                 };
 
-                return tokenHandler.ValidateToken(token, tokenValidationParameters, out _);
+                // Validar el token y obtener los claims
+                var principal = tokenHandler.ValidateToken(token, validationParameters, out SecurityToken validatedToken);
+
+                // Verificar que el tipo de token es JWT
+                if (!(validatedToken is JwtSecurityToken jwtToken) ||
+                    !jwtToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    return null;
+                }
+
+                return principal;
             }
-            catch (Exception ex)
+            catch
             {
-                _logger.LogError($"Error al validar token: {ex.Message}");
-                throw;
+                // Si hay alguna excepción durante la validación, consideramos el token inválido
+                return null;
             }
         }
 
-        public async Task<TokenResponseDto> RefreshTokenAsync(string refreshToken)
+        /// <summary>
+        /// Verifica si un token es válido sin extraer sus claims.
+        /// </summary>
+        /// <param name="token">Token JWT a verificar</param>
+        /// <returns>True si el token es válido; false en caso contrario</returns>
+        public bool IsTokenValid(string token)
         {
-            try
-            {
-                // Buscar el refresh token en BD
-                var storedToken = await _refreshTokenData.GetByTokenAsync(refreshToken);
-                
-                // Validar refresh token
-                if (storedToken == null)
-                {
-                    throw new SecurityTokenException("Refresh token no encontrado");
-                }
-                
-                if (storedToken.IsUsed)
-                {
-                    throw new SecurityTokenException("El refresh token ya ha sido utilizado");
-                }
-                
-                if (storedToken.IsRevoked)
-                {
-                    throw new SecurityTokenException("El refresh token ha sido revocado");
-                }
-                
-                if (storedToken.ExpiryDate < DateTime.UtcNow)
-                {
-                    throw new SecurityTokenException("El refresh token ha expirado");
-                }
-
-                // Obtener el usuario asociado al refresh token
-                var user = await _userBusiness.GetByIdAsync(storedToken.UserId);
-                if (user == null || !user.Active)
-                {
-                    throw new SecurityTokenException("Usuario no encontrado o inactivo");
-                }
-
-                // Marcar token como usado
-                await _refreshTokenData.MarkTokenAsUsedAsync(refreshToken);
-
-                // Obtener roles del usuario
-                var userRoles = await _roleUserBusiness.GetAllAsync();
-                var userRoleIds = userRoles
-                    .Where(ur => ur.UserId == user.Id)
-                    .Select(ur => ur.RolId)
-                    .ToList();
-
-                var roles = (await _rolBusiness.GetAllAsync())
-                    .Where(r => userRoleIds.Contains(r.Id))
-                    .Select(r => r.Name)
-                    .ToList();
-
-                // Generar nuevo token
-                return await GenerateTokenAsync(user, roles);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al refrescar token: {ex.Message}");
-                throw;
-            }
-        }
-
-        private string GenerateRefreshTokenString()
-        {
-            var randomNumber = new byte[32];
-            using (var rng = RandomNumberGenerator.Create())
-            {
-                rng.GetBytes(randomNumber);
-                return Convert.ToBase64String(randomNumber);
-            }
+            return ValidateToken(token) != null;
         }
     }
 }
