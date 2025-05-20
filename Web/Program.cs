@@ -13,8 +13,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Business.Services;
 using Business.Interfaces;
 using Business.Implements;
-using System.Text;
-using Entity.Model;
+using Utilities.Jwt;
+using Utilities.Interfaces;
 
 internal class Program
 {
@@ -25,6 +25,9 @@ internal class Program
         builder.Services.AddScoped(typeof(IBaseData<>), typeof(ABaseData<>)); //ACTIVENLA DESPUES DE HACER EL BUSINESS Y A�ADANLE LA DEL BUSINESS
         builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
         builder.Services.AddScoped<IEmailService, EmailService>();
+
+        builder.Services.AddScoped<IJwtGenerator, GenerateTokenJwt>();
+
 
         // Add application services (validators, CORS, etc.)
         builder.Services.AddApplicationServices(builder.Configuration);
