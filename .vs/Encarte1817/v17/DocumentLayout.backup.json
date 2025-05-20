@@ -1,46 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\",
+  "WorkspaceRootPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\mail\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\interfaces\\iroluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iroluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\authdto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\authdto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\utilities\\mail\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\deletelogicaluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\deletelogicaluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mail\\swtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\userdate\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\implements\\roldata\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\roldata\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\iroleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iroleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\irolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\interface\\iusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\implements\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\roluserdto\\deletelogicalroluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roluserdto\\deletelogicalroluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\roluserdto\\roluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roluserdto\\roluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\roldto\\deletelogiroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roldto\\deletelogiroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\roldto\\updateroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roldto\\updateroldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\data\\interfaces\\iroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\roluserdto\\updateroluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roluserdto\\updateroluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,32 +182,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs*",
-              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAA1wEwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Services\\JwtService.cs",
+              "RelativeToolTip": "Business\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:21:26.784Z",
+              "WhenOpened": "2025-05-18T17:17:05.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs*",
-              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:17:43.453Z",
+              "WhenOpened": "2025-05-18T19:20:27.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenerateTokenJwt.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeDocumentMoniker": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeToolTip": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:51:22.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:45:26.92Z",
               "EditorCaption": ""
             },
             {
@@ -88,59 +246,492 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "RolUser.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeToolTip": "Entity\\Model\\RolUser.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:12:51.596Z",
+              "WhenOpened": "2025-05-19T00:31:52.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseData.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\BaseData.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
-              "RelativeToolTip": "Data\\Implements\\BaseData\\BaseData.cs",
+              "DocumentIndex": 8,
+              "Title": "SwtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
+              "RelativeDocumentMoniker": "Utilities\\Mail\\SwtpSettings.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
+              "RelativeToolTip": "Utilities\\Mail\\SwtpSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:12:49.774Z",
+              "WhenOpened": "2025-05-20T19:54:23.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "Business\\Services\\AuthService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:57.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Program.cs*",
-              "RelativeToolTip": "Web\\Program.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Title": "IRoleUserController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:07:14.858Z",
+              "WhenOpened": "2025-05-18T18:33:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRolUserData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IRolUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRolUserData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IRolUserData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRolUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:05:13.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Utilities\\Mail\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
+              "RelativeToolTip": "Utilities\\Mail\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:39:06.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteLogicalUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:37:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RolUserData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\RolUserData\\RolUserData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
+              "RelativeToolTip": "Data\\Implements\\RolUserData\\RolUserData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:04:26.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRoleUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IRoleUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleUserBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IRoleUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IRoleUserBusiness.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:08:58.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\RolData\\RolData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
+              "RelativeToolTip": "Data\\Implements\\RolData\\RolData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:03:38.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SwtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
-              "RelativeDocumentMoniker": "Utilities\\Mail\\SwtpSettings.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\SwtpSettings.cs",
-              "RelativeToolTip": "Utilities\\Mail\\SwtpSettings.cs",
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:14:22.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Entity\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAnwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:14:14.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:04:32.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleUserBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleUserBusiness.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA8wDIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:03.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA3wBAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:05:15.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:06.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:53:57.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IRoleBusiness.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:08:08.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:28.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeToolTip": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:02.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ABaseData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\BaseData\\ABaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\ABaseData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Implements\\BaseData\\ABaseData.cs",
+              "RelativeToolTip": "Data\\Implements\\BaseData\\ABaseData.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:00.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleBusiness.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwBcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:15:50.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\UserController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\UserController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwEUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:01:15.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGenericController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IGenericController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IGenericController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:18:11.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IRoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IRoleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:59:45.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IUserController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Interface\\IUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IUserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:15:37.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RoleUserController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleUserController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleUserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:01:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:14.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GenericController.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\GenericController.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\GenericController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:45.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\BaseBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\BaseBusiness.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:53:34.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ABaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\ABaseBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\ABaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:53:48.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IBaseBusiness.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IBaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:14.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DeleteLogicalRolUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:16:59.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RolUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:17:00.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DeleteLogiRolDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:40.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateRolDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:26:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IRolData.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IRolData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRolData.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Interfaces\\IRolData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRolData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T22:05:12.174Z",
@@ -148,54 +739,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "Utilities\\Mail\\SmtpSettings.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\SmtpSettings.cs",
-              "RelativeToolTip": "Utilities\\Mail\\SmtpSettings.cs",
+              "DocumentIndex": 41,
+              "Title": "UpdateRolUser.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:36:04.074Z",
+              "WhenOpened": "2025-05-18T17:10:06.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\UserBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\Implements\\UserBusiness.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\UserBusiness.cs*",
-              "RelativeToolTip": "Business\\Implements\\UserBusiness.cs*",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAIwLYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 42,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:14:50.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Utilities\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Utilities\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:12:59.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\EmailService.cs",
-              "RelativeDocumentMoniker": "Utilities\\Mail\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mail\\EmailService.cs",
-              "RelativeToolTip": "Utilities\\Mail\\EmailService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwFMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:11:58.75Z",
+              "WhenOpened": "2025-05-18T18:22:21.352Z",
               "EditorCaption": ""
             }
           ]
