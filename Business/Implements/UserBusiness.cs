@@ -25,12 +25,13 @@ namespace Business.Implements
     {
         private readonly IUserData _userData;
         private readonly IEmailService _emailService;
-
-        public UserBusiness(IUserData userData, IMapper mapper, ILogger<UserBusiness> logger, IGenericIHelpers helpers, IEmailService emailService)
+        private readonly IJwtGenerator _jwtGenerator;
+        public UserBusiness(IUserData userData, IMapper mapper, ILogger<UserBusiness> logger, IGenericIHelpers helpers, IEmailService emailService, IJwtGenerator jwtGenerator)
             : base(userData, logger, mapper, helpers)
         {
             _userData = userData;
             _emailService = emailService;
+            _jwtGenerator = jwtGenerator;
         }
 
         ///<summary>
@@ -180,5 +181,59 @@ namespace Business.Implements
 
             _logger.LogInformation($"Correo de notificación enviado exitosamente a {emailDestino}");
         }
+
+        /// <summary>
+        /// Envía un correo electrónico con un enlace para restablecer la contraseña del usuario.
+        /// </summary>
+        /// <param name="email">Dirección de correo electrónico del usuario que solicita recuperar su contraseña.</param>
+        /// <returns>Una tarea que representa la operación asíncrona.</returns>
+        /// <exception cref="EntityNotFoundException">Se lanza cuando no se encuentra el usuario con el correo proporcionado o cuando está inactivo.</exception>
+        /// <exception cref="Exception">Se lanza cuando el envío del correo falla.</exception>
+        public async Task EnviarCorreoRecuperacionAsync(string email)
+        {
+            // Verificamos que el email no esté vacío
+            if (string.IsNullOrWhiteSpace(email))
+                throw new ValidationException("email", "La dirección de correo electrónico no puede estar vacía.");
+
+            // Buscamos al usuario por su correo electrónico
+            var usuario = await _userData.GetByEmailAsync(email);
+
+            // Verificamos que el usuario exista y esté activo
+            if (usuario == null || !usuario.Status)
+                throw new EntityNotFoundException("Usuario", email);
+
+            // Generamos un token JWT con expiración de 15 minutos para el restablecimiento de contraseña
+            string token = _jwtGenerator.GenerarTokenRecuperacion(usuario);
+
+            // Creamos el enlace que el usuario deberá seguir para restablecer su contraseña
+            // Nota: En producción, la URL base debería configurarse en appsettings.json
+            string resetLink = $"https://tuapp.com/reset-password?token={token}";
+
+            _logger.LogInformation($"Generando enlace de recuperación de contraseña para {email}");
+
+            // Preparamos el asunto y cuerpo del correo electrónico
+            // El cuerpo utiliza formato HTML para mejor presentación
+            string subject = "Restablecimiento de contraseña";
+            string body = $@"
+        <p>Haz clic en el siguiente enlace para cambiar tu contraseña:</p>
+        <p><a href='{resetLink}' target='_blank'>Restablecer contraseña</a></p>
+        <p>Este enlace expirará en 15 minutos por razones de seguridad.</p>
+        <p>Si no solicitaste este cambio, puedes ignorar este mensaje.</p>
+        <p>Saludos,<br>El equipo de tu aplicación</p>";
+
+            // Enviamos el correo con formato HTML habilitado
+            _logger.LogInformation($"Enviando correo de recuperación a {email}");
+            bool enviado = await _emailService.SendEmailAsync(email, subject, body, isHtml: true);
+
+            // Verificamos si el envío fue exitoso
+            if (!enviado)
+            {
+                _logger.LogError($"Error al enviar correo de recuperación a {email}");
+                throw new Exception("No se pudo enviar el correo de recuperación.");
+            }
+
+            _logger.LogInformation($"Correo de recuperación enviado exitosamente a {email}");
+        }
     }
+
 }
