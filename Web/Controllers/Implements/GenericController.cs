@@ -21,7 +21,7 @@ namespace Web.Controllers.Implements
         {
             try
             {
-                var entities = await _business.GetAllDtoAsync();
+                var entities = await _business.GetAllAsync();
                 return Ok(entities);
             }
             catch (Exception ex)
@@ -36,7 +36,7 @@ namespace Web.Controllers.Implements
         {
             try
             {
-                var entity = await _business.GetDtoByIdAsync(id);
+                var entity = await _business.GetByIdAsync(id);
                 if (entity == null)
                     return NotFound($"Registro con ID {id} no encontrado");
 

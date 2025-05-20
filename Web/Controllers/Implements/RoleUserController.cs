@@ -23,11 +23,11 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPatch("{id}/role/{roleId}")]
-        public async Task<IActionResult> UpdatePartialRoleUser(int id, int roleId)
+        public async Task<IActionResult> UpdatePartialRoleUser(int id, int roleId,UpdateRolUserDto dto)
         {
             try
             {
-                var result = await _roleUserBusiness.UpdateParcialRoleUserAsync(id, roleId);
+                var result = await _roleUserBusiness.UpdateParcialRoleUserAsync(id,roleId, dto);
                 if (!result)
                     return NotFound($"Asignación de rol con ID {id} no encontrada");
 

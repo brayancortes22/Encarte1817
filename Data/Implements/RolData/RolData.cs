@@ -36,7 +36,7 @@ namespace Data.Implements.RolData
             // Update only the fields that are not null
             if (!string.IsNullOrEmpty(rol.Name)) existingRol.Name = rol.Name;
             if (!string.IsNullOrEmpty(rol.Description)) existingRol.Description = rol.Description;
-            _context.Users.Update(existingRol);
+            _context.Roles.Update(existingRol);
             await _context.SaveChangesAsync();
             return true;
         }

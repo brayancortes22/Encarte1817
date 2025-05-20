@@ -2,6 +2,7 @@
 using Entity.Dtos.UserDTO;
 using Entity.Model;
 using Web.Controllers.Interface;
+using Business.Interfaces;
 
 namespace Web.Controllers.Implements
 {
@@ -40,7 +41,7 @@ namespace Web.Controllers.Implements
         }
 
         [HttpPatch]
-        public async Task<IActionResult> UpdatePartialUser([FromBody] UserUpdateDto dto)
+        public async Task<IActionResult> UpdatePartialUser([FromBody] UpdateUserDto dto)
         {
             try
             {

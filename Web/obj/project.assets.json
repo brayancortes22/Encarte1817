@@ -144,11 +144,11 @@
           }
         }
       },
-      "MailKit/4.12.0": {
+      "MailKit/4.12.1": {
         "type": "package",
         "dependencies": {
           "MimeKit": "4.12.0",
-          "System.Formats.Asn1": "8.0.2"
+          "System.Formats.Asn1": "8.0.1"
         },
         "compile": {
           "lib/net8.0/MailKit.dll": {
@@ -1322,7 +1322,7 @@
           "EnterpriseLibrary.Validation": "6.0.1304",
           "Entity": "1.0.0",
           "FluentValidation": "12.0.0",
-          "MailKit": "4.12.0",
+          "MailKit": "4.12.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "MimeKit": "4.12.0"
         },
@@ -1509,10 +1509,10 @@
         "lib/net8.0/FluentValidation.xml"
       ]
     },
-    "MailKit/4.12.0": {
-      "sha512": "DShr4dH9IZeUUQI7D5+zhxBKaiBrE/4+3APO2nSzCJwILv3lnViZew7yuoBJUWxAnwxzneJIFokxc8nvAQVZqg==",
+    "MailKit/4.12.1": {
+      "sha512": "rIqJm92qtHvk1hDchsJ95Hy7n46A7imE24ol++ikXBsjf3Bi1qDBu4H91FfY6LrYXJaxRlc2gIIpC8AOJrCbqg==",
       "type": "package",
-      "path": "mailkit/4.12.0",
+      "path": "mailkit/4.12.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1545,7 +1545,7 @@
         "lib/netstandard2.1/MailKit.dll.config",
         "lib/netstandard2.1/MailKit.pdb",
         "lib/netstandard2.1/MailKit.xml",
-        "mailkit.4.12.0.nupkg.sha512",
+        "mailkit.4.12.1.nupkg.sha512",
         "mailkit.nuspec"
       ]
     },
@@ -3384,23 +3384,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\sedmo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\obj\\",
+      "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sedmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3409,23 +3409,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Business.csproj"
+            "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj"
             },
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj"
+            "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj"
             },
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+            "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
             },
-            "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj"
+            "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj": {
+              "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj"
             }
           }
         }
@@ -3482,7 +3483,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3491,7 +3492,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "EnterpriseLibrary.Validation 6.0.1304 depends on EnterpriseLibrary.Common (>= 6.0.0) but EnterpriseLibrary.Common 6.0.0 was not found. EnterpriseLibrary.Common 6.0.1304 was resolved instead.",
+      "message": "EnterpriseLibrary.Validation 6.0.1304 depende de EnterpriseLibrary.Common (>= 6.0.0), pero no se encontró EnterpriseLibrary.Common 6.0.0. EnterpriseLibrary.Common 6.0.1304 se resolvió en su lugar.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         "net9.0"
@@ -3501,7 +3502,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.Common 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"EnterpriseLibrary.Common 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         "net9.0"
@@ -3511,7 +3512,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.Validation 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"EnterpriseLibrary.Validation 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "EnterpriseLibrary.Validation",
       "targetGraphs": [
         "net9.0"
