@@ -9,7 +9,7 @@ namespace Business.Interfaces
         /// <summary>
         /// Obtiene todas las entidades desde la base de datos.
         /// </summary>
-        /// <returns>Una colecci�n de objetos de tipo <typeparamref name="TEntity"/>.</returns>
+        /// <returns>Una colecci�n de objetos de tipo <typeparamref name="TDto"/>.</returns>
         Task<List<TDto>> GetAllAsync();
 
         /// <summary>
