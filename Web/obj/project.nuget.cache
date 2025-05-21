@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DXA2UkhGubY=",
+  "dgSpecHash": "JhzWzmrGqMs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Diego Alejandro\\Desktop\\Encarte\\Encarte1817\\Web\\Web.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.5\\microsoft.entityframeworkcore.sqlserver.9.0.5.nupkg.sha512",
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.5\\microsoft.extensions.caching.abstractions.9.0.5.nupkg.sha512",
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.5\\microsoft.extensions.caching.memory.9.0.5.nupkg.sha512",
+    "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
     "C:\\Users\\Diego Alejandro\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
