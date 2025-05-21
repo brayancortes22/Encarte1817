@@ -11,6 +11,16 @@ namespace Utilities.Helpers
     /// </summary>
     public class UserHelper : IUserHelper
     {
+        public string GetUserFullName(UserDto user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetUserInitials(UserDto user)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Verifica si una dirección de correo electrónico es válida utilizando una expresión regular.
         /// </summary>
