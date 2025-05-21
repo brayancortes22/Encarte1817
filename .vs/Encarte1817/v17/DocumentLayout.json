@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\credencialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\credencialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\roleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\implements\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\roldata\\roldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\iroleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\irolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\entity\\dtos\\userdto\\deletelogicaluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\deletelogicaluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,20 +95,8 @@
       "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\interface\\igenericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\sedmo\\source\\repos\\encarte1817\\business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,6 +182,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\UserController.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\UserController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:01:15.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CredencialesController.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\CredencialesController.cs",
@@ -191,167 +208,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GenericController.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\GenericController.cs",
               "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
               "RelativeToolTip": "Web\\Controllers\\Implements\\GenericController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T22:22:03.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoleUserController.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleUserController.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleUserController.cs",
+              "DocumentIndex": 0,
+              "Title": "Data.csproj",
+              "DocumentMoniker": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj",
+              "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:22:01.99Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T23:34:50.524Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\UserController.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Implements\\UserController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:01:15.534Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleController.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleController.cs",
+              "Title": "IGenericController.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IGenericController.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IGenericController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:22:03.027Z",
+              "WhenOpened": "2025-05-18T17:18:11.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseData.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\BaseData.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
-              "RelativeToolTip": "Data\\Implements\\BaseData\\BaseData.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:54:02.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRoleBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleBusiness.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
-              "RelativeToolTip": "Business\\Interfaces\\IRoleBusiness.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:08:08.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\IJwtService.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
-              "RelativeToolTip": "Business\\Interfaces\\IJwtService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:53:57.417Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IUserBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
-              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
-              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAMwC8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:16:28.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CredencialesDto.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
-              "RelativeDocumentMoniker": "Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
-              "RelativeToolTip": "Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:14:26.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthDto.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
-              "RelativeDocumentMoniker": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
-              "RelativeToolTip": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:14:22.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
-              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:04:32.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RolData.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\RolData\\RolData.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
-              "RelativeToolTip": "Data\\Implements\\RolData\\RolData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:03:38.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IRoleUserController.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleUserController.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:33:40.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "IRoleController.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IRoleController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleController.cs",
@@ -359,59 +259,25 @@
               "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:59:45.68Z"
+              "WhenOpened": "2025-05-18T16:59:45.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DeleteLogicalUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
-              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
-              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IRoleUserController.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Interface\\IRoleUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:37:13.807Z"
+              "WhenOpened": "2025-05-18T18:33:40.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RolUserData.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\RolUserData\\RolUserData.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
-              "RelativeToolTip": "Data\\Implements\\RolUserData\\RolUserData.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:04:26.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RolUser.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
-              "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
-              "RelativeToolTip": "Entity\\Model\\RolUser.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T00:31:52.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUserData.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
-              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T22:05:15.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "ABaseData.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\ABaseData.cs",
               "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\ABaseData.cs",
@@ -423,31 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T19:20:27.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IGenericController.cs",
-              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Interface\\IGenericController.cs",
-              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Interface\\IGenericController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Interface\\IGenericController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:18:11.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
               "Title": "BaseBusiness.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implements\\BaseBusiness.cs",
@@ -459,7 +301,187 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleUserController.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleUserController.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleUserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:22:01.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\RoleController.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\RoleController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:22:03.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseData.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeToolTip": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IRoleBusiness.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IRoleBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IRoleBusiness.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:08:08.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:53:57.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAMwC8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:16:28.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CredencialesDto.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\CredencialesDTO\\CredencialesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:14:26.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthDto.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\AuthDTO\\AuthDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:14:22.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\UserDate\\UserData.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\UserDate\\UserData.cs",
+              "RelativeToolTip": "Data\\Implements\\UserDate\\UserData.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:04:32.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RolData.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\RolData\\RolData.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolData\\RolData.cs",
+              "RelativeToolTip": "Data\\Implements\\RolData\\RolData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:03:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteLogicalUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\DeleteLogicalUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:37:13.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RolUserData.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\RolUserData\\RolUserData.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
+              "RelativeToolTip": "Data\\Implements\\RolUserData\\RolUserData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:04:26.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RolUser.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeToolTip": "Entity\\Model\\RolUser.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:31:52.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserData.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserData.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IUserData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IUserData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:05:15.071Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:20:27.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ABaseBusiness.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Implements\\ABaseBusiness.cs",
@@ -471,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IBaseBusiness.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
               "RelativeDocumentMoniker": "Business\\Interfaces\\IBaseBusiness.cs",
@@ -483,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DeleteLogicalRolUserDto.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\DeleteLogicalRolUserDto.cs",
@@ -495,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "RolUserDto.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
@@ -507,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DeleteLogiRolDto.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\RolDTO\\DeleteLogiRolDto.cs",
@@ -519,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UpdateRolDto.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\RolDTO\\UpdateRolDto.cs",
@@ -531,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IRolUserData.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IRolUserData.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRolUserData.cs",
@@ -543,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IRolData.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Interfaces\\IRolData.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IRolData.cs",
@@ -555,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Web.csproj",
               "DocumentMoniker": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Web\\Web.csproj",
               "RelativeDocumentMoniker": "Web\\Web.csproj",
@@ -563,11 +585,12 @@
               "RelativeToolTip": "Web\\Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-18T19:25:47.401Z"
+              "WhenOpened": "2025-05-18T19:25:47.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\JwtService.cs",
@@ -579,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
@@ -591,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "UpdateRolUser.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\UpdateRolUser.cs",
@@ -603,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",

@@ -64,7 +64,7 @@ namespace Business.Interfaces
         /// <param name="dto">Objeto que contiene el ID del usuario y el ID del rol a asignar.</param>
         /// <returns> True si el rol fue asignado correctamente; false si el usuario o el rol no existen. </returns>
         Task<bool> AssignRolAsync(AssignUserRolDto dto);
-
+        Task SetUserActiveAsync(object id, bool isActive);
     }
 }
     

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Business.csproj": {}
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Business.csproj": {
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Business\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,11 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Data.csproj"
+              "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj"
               },
-              "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+              "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
               }
             }
           }
@@ -87,12 +87,12 @@
         }
       }
     },
-    "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Data.csproj": {
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Data\\obj\\",
         "projectStyle": "PackageReference",
@@ -116,11 +116,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+              "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj"
+              "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -160,12 +160,12 @@
         }
       }
     },
-    "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\obj\\",
         "projectStyle": "PackageReference",
@@ -256,12 +256,12 @@
         }
       }
     },
-    "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\sedmo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
@@ -285,8 +285,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\sedmo\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
+              "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\sedmo\\Source\\Repos\\Encarte1817\\Entity\\Entity.csproj"
               }
             }
           }
