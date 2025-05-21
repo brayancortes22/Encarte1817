@@ -5,33 +5,20 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\JuanSe\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
-=======
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\14-em0005Ia\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-<<<<<<< HEAD
     <SourceRoot Include="C:\Users\JuanSe\.nuget\packages\" />
-=======
-    <SourceRoot Include="C:\Users\14-em0005Ia\.nuget\packages\" />
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.5\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.5\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-<<<<<<< HEAD
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\JuanSe\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\JuanSe\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
     <PkgEnterpriseLibrary_Validation Condition=" '$(PkgEnterpriseLibrary_Validation)' == '' ">C:\Users\JuanSe\.nuget\packages\enterpriselibrary.validation\6.0.1304</PkgEnterpriseLibrary_Validation>
-=======
-    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\14-em0005Ia\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
-    <PkgEnterpriseLibrary_Validation Condition=" '$(PkgEnterpriseLibrary_Validation)' == '' ">C:\Users\14-em0005Ia\.nuget\packages\enterpriselibrary.validation\6.0.1304</PkgEnterpriseLibrary_Validation>
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
   </PropertyGroup>
 </Project>

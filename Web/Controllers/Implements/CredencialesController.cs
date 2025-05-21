@@ -83,58 +83,5 @@ namespace Web.Controllers.Implements
             return Ok(credencial);
         }
 
-        // POST: api/credenciales
-        // Crea una nueva credencial
-        [HttpPost]
-        public ActionResult<CredencialesDto> Create(CredencialesDto dto)
-        {
-            // Genera un nuevo ID autom�tico
-            dto.Id = _credenciales.Count > 0 ? _credenciales.Max(c => c.Id) + 1 : 1;
-
-            // Agrega el nuevo elemento a la lista
-            _credenciales.Add(dto);
-
-            // Devuelve 201 Created con la ubicaci�n del nuevo recurso
-            return CreatedAtAction(nameof(GetById), new { id = dto.Id }, dto);
-        }
-
-        // PUT: api/credenciales/5
-        // Actualiza una credencial existente
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, CredencialesDto updated)
-        {
-            // Busca la credencial en la lista
-            var existing = _credenciales.FirstOrDefault(c => c.Id == id);
-
-            // Si no se encuentra, devuelve 404
-            if (existing == null)
-                return NotFound();
-
-            // Actualiza los datos
-            existing.Email = updated.Email;
-            existing.Password = updated.Password;
-
-            // Devuelve 204 No Content para indicar �xito sin contenido adicional
-            return NoContent();
-        }
-
-        // DELETE: api/credenciales/5
-        // Elimina una credencial por ID
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            // Busca el elemento
-            var existing = _credenciales.FirstOrDefault(c => c.Id == id);
-
-            // Si no se encuentra, devuelve 404
-            if (existing == null)
-                return NotFound();
-
-            // Elimina el elemento de la lista
-            _credenciales.Remove(existing);
-
-            // Devuelve 204 No Content
-            return NoContent();
-        }
     }
 }

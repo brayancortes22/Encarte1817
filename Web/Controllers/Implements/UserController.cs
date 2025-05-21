@@ -98,27 +98,7 @@ namespace Web.Controllers.Implements
 
 
 
-        [HttpPost("validate")]
-        public async Task<IActionResult> ValidateCredentials([FromBody] LoginRequestDto loginDto)
-        {
-            try
-            {
-                if (string.IsNullOrWhiteSpace(loginDto.Email) || string.IsNullOrWhiteSpace(loginDto.Password))
-                    return BadRequest("Email y contraseña son requeridos");
-
-                var isValid = await _userBusiness.ValidateCredentialsAsync(loginDto.Email, loginDto.Password);
-                if (!isValid)
-                    return Unauthorized("Credenciales inválidas");
-
-                return Ok(new { IsValid = true });
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error al validar credenciales: {ex.Message}");
-                return StatusCode(500, "Error interno del servidor");
-            }
-        }
-    }
+           }
 
 
 

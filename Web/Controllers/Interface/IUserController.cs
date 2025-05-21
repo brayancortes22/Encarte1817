@@ -9,6 +9,6 @@ namespace Web.Controllers.Interface
         Task<IActionResult> GetUserByEmail(string email);
         Task<IActionResult> UpdatePartialUser(UpdateUserDto dto);
         Task<IActionResult> SetUserActive(int id, UserStatusDto dto);
-        Task<IActionResult> ValidateCredentials([FromBody] LoginRequestDto loginDto);
+       
     }
 }
