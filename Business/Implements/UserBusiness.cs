@@ -207,7 +207,7 @@ namespace Business.Implements
 
             // Creamos el enlace que el usuario deberá seguir para restablecer su contraseña
             // Nota: En producción, la URL base debería configurarse en appsettings.json
-            string resetLink = $"https://tuapp.com/reset-password?token={token}";
+            string resetLink = $"https://Encarte1817.com/reset-password?token={token}";
 
             _logger.LogInformation($"Generando enlace de recuperación de contraseña para {email}");
 
