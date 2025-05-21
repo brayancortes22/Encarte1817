@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\",
   "Documents": [
     {
@@ -21,6 +22,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
     }
   ],
   "DocumentGroupContainers": [
@@ -30,6 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -58,10 +67,34 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-20T23:00:09.06Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+>>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
@@ -102,6 +135,17 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+=======
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:22:21.352Z",
+              "EditorCaption": ""
+>>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
             }
           ]
         }

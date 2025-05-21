@@ -190,11 +190,11 @@ namespace Business.Implements
         {
             try
             {
-                _logger.LogInformation($"Actualizando {typeof(TEntity).Name} desde DTO");
+                
                 await EnsureValid(dto);
                 var entity = _mapper.Map<TEntity>(dto);
-                // TODO: Falta la llamada al repositorio para persistir los cambios
-                // entity = await _repository.UpdateAsync(entity);
+                entity = await _repository.UpdateAsync(entity);
+                _logger.LogInformation($"Actualizando {typeof(TEntity).Name} desde DTO");
                 return _mapper.Map<TDto>(entity);
             }
             catch (Exception ex)
