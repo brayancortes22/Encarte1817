@@ -61,6 +61,12 @@ namespace Business.Implements
             return user.Password == hashedPassword ? user : null;
         }
 
+        public async Task<bool> ValidateCredentialsAsync(string email, string password)
+        {
+            var user = await LoginAsync(email, password);
+            return user != null;
+        }
+
         /// <summary>
         /// Genera un hash SHA-256 a partir de una contraseña en texto plano.
         /// </summary>

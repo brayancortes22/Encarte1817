@@ -67,37 +67,36 @@ namespace Web.Controllers.Implements
 
         //Este metodo responde a patch /users//{id}/status
         [HttpPatch("users/{id}/status")]
-        public async Task<IActionResult> SetUserActive([FromBody] UserStatusDto dto)
+        public async Task<IActionResult> SetUserActive(int id, [FromBody] UserStatusDto dto)
         {
             try
             {
-                //validacion de modelo
-
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
+                // Ahora pasamos el id recibido como parámetro
+                var deleteLogicalUserDto = new DeleteLogicalUserDto
+                {
+                    Id = id,
+                    Status = dto.IsActive
+                };
 
-                    //llamamos a la logica de negocio pasando el ID y el nuevo estado
-
-                var result = await _userBusiness.SetUserActiveAsync(id,dto.IsActive);
-                //Responde con 200 OK el resultado
+                var result = await _userBusiness.SetUserActiveAsync(deleteLogicalUserDto);
                 return Ok(new { Success = result });
             }
             catch (ArgumentException ex)
             {
-                //Captura errores de validacion  por ejemplo, usuario no encontrado
                 _logger.LogError($"Error de validación al cambiar estado de usuario: {ex.Message}");
                 return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
-                //Captura errores inesperados
                 _logger.LogError($"Error al cambiar estado de usuario: {ex.Message}");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
 
 
-        
+
 
         [HttpPost("validate")]
         public async Task<IActionResult> ValidateCredentials([FromBody] LoginRequestDto loginDto)
@@ -122,10 +121,5 @@ namespace Web.Controllers.Implements
     }
 
 
-//prueba 
-    public class LoginRequestDto
-    {
-        public string Email { get; set; }
-        public string Password { get; set; }
-    }
+
 }
