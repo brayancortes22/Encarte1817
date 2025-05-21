@@ -3842,39 +3842,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\JuanSe\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\14-em0005Ia\\.nuget\\packages\\": {},
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Web.csproj",
-      "projectName": "Web",
-      "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\JuanSe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
       "projectName": "Web",
       "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\obj\\",
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\JuanSe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\14-em0005Ia\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3883,26 +3867,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Business\\Business.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Data.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Utilities.csproj"
-=======
             "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj": {
               "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj"
             },
@@ -3914,7 +3884,6 @@
             },
             "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj": {
               "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj"
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
             }
           }
         }
@@ -3929,7 +3898,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -3971,15 +3940,17 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
       }
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1603",
       "level": "Warning",

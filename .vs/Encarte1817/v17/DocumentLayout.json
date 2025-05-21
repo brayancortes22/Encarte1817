@@ -26,6 +26,14 @@
   "WorkspaceRootPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
@@ -70,6 +78,19 @@
 =======
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateTokenJwt.cs",
+              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeDocumentMoniker": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "RelativeToolTip": "Utilities\\Jwt\\GenerateTokenJwt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:16:51.267Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
