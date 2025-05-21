@@ -15,5 +15,6 @@ namespace Data.Interfaces
         Task<bool> Active(int id,bool status);
         Task<bool> UpdatePartial(User user);
         Task<bool> AssingRolAsync(int userId, int rolId);
+         
     }
 }

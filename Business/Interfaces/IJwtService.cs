@@ -1,6 +1,4 @@
 // Business/Interfaces/IJwtService.cs
-using System;
-using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Entity.Dtos.AuthDTO;
@@ -9,31 +7,30 @@ using Entity.Model;
 
 namespace Business.Interfaces
 {
-    ///<summary>
-    /// Define los métodos relacionados con la generación, validación y renovación de Tokens JWT.
-    ///</summary>
+    /// <summary>
+    /// Servicio para operaciones relacionadas con JWT en la capa de negocio.
+    /// </summary>
     public interface IJwtService
     {
         /// <summary>
-        /// Genera un token JWT y un refresh token para un usuario autenticado.
+        /// Genera un token JWT para un usuario autenticado.
         /// </summary>
-        /// <param name="user">El usuario autenticado para el cual se generará el token.</param>
-        /// <param name="roles">Una lista de roles asociados al usuario.</param>
-        /// <returns>Objeto que incluye el token de acceso, refresh token y datos útiles para el cliente.</returns>
-        Task<TokenResponseDto> GenerateTokenAsync(User user, IEnumerable<string> roles);
+        /// <param name="user">Usuario autenticado</param>
+        /// <returns>DTO con el token generado y su fecha de expiración</returns>
+        Task<AuthDto> GenerateTokenAsync(User user);
 
         /// <summary>
-        /// Valida un token JWT y extrae los claims asociados.
+        /// Valida un token JWT y extrae sus claims.
         /// </summary>
-        /// <param name="token">El token JWT a validar.</param>
-        /// <returns>Claims extraídos del token si es válido; si no, devuelve null o lanza una excepción.</returns>
+        /// <param name="token">Token JWT a validar</param>
+        /// <returns>ClaimsPrincipal con la información del token, o null si el token es inválido</returns>
         ClaimsPrincipal ValidateToken(string token);
 
         /// <summary>
-        /// Genera un nuevo token JWT utilizando un refresh token válido.
+        /// Verifica si un token es válido sin extraer sus claims.
         /// </summary>
-        /// <param name="refreshToken">El refresh token válido asociado a un usuario.</param>
-        /// <returns>Nuevo token JWT y refresh token actualizado.</returns>
-        Task<TokenResponseDto> RefreshTokenAsync(string refreshToken);
+        /// <param name="token">Token JWT a verificar</param>
+        /// <returns>True si el token es válido; false en caso contrario</returns>
+        bool IsTokenValid(string token);
     }
 }

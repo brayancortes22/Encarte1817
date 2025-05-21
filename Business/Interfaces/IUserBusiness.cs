@@ -65,6 +65,22 @@ namespace Business.Interfaces
         /// <returns> True si el rol fue asignado correctamente; false si el usuario o el rol no existen. </returns>
         Task<bool> AssignRolAsync(AssignUserRolDto dto);
 
+        /// <summary>
+        /// Notifica al usuario mediante correo electrónico sobre la creación de su cuenta.
+        /// </summary>
+        /// <param name="emailDestino">Dirección de correo electrónico del destinatario.</param>
+        /// <param name="nombre">Nombre del usuario para personalizar el mensaje.</param>
+        /// <returns>Una tarea que representa la operación asíncrona.</returns>
+        Task NotificarUsuarioAsync(string emailDestino, string nombre);
+
+        /// <summary>
+        /// Envía un correo electrónico con un enlace para restablecer la contraseña del usuario.
+        /// </summary>
+        /// <param name="email">Dirección de correo electrónico del usuario que solicita recuperar su contraseña.</param>
+        /// <returns>Una tarea que representa la operación asíncrona.</returns>
+        Task EnviarCorreoRecuperacionAsync(string email);
+
+
     }
 }
     
