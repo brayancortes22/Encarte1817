@@ -261,10 +261,10 @@
         }
       }
     },
-    "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
         "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
@@ -360,10 +360,10 @@
         }
       }
     },
-    "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj": {
+    "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Web.csproj",
         "projectName": "Web",
         "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
@@ -391,11 +391,11 @@
               "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj": {
                 "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj"
               },
-              "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Data\\Data.csproj"
+              "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Data.csproj"
               },
-              "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Entity.csproj"
+              "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Entity.csproj"
               },
               "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj": {
                 "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj"
