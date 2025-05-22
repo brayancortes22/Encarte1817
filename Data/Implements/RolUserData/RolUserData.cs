@@ -1,4 +1,5 @@
 ﻿using Data.Implements.BaseDate;
+using Data.Interfaces; // Añade esta línea
 using Entity.Context;
 using Entity.Model;
 using System;
@@ -9,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Data.Implements.RolUserData;
 
-public class RolUserData : BaseData<RolUser>
+public class RolUserData : BaseData<RolUser>, IRolUserData
 {
-    public RolUserData(ApplicationDbContext context) : base(context) 
+    public RolUserData(ApplicationDbContext context) : base(context)
     {
     }
 

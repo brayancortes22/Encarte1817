@@ -25,7 +25,7 @@ namespace Business.Interfaces
         /// <param name="email">Correo electrónico del usuario.</param>
         /// <param name="password">Contraseña en texto plano para validar.</param>
         ///<returns>True si las credenciales son válidas; de lo contario false</returns>
-        
+        Task<bool> ValidateCredentialsAsync(string email, string password);
 
         /// <summary>
         /// Actualiza parcialmente los datos de un usuario.
