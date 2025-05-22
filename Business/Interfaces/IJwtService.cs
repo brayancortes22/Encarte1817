@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Entity.Dtos.AuthDTO;
+
 using Entity.Model;
 
 namespace Business.Interfaces
@@ -11,7 +12,7 @@ namespace Business.Interfaces
     /// </summary>
     public interface IJwtService
     {
-        /// <summary>
+        /// <summary>-+
         /// Genera un token JWT para un usuario autenticado.
         /// </summary>
         /// <param name="user">Usuario autenticado</param>
