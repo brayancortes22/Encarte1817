@@ -5443,39 +5443,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\JuanSe\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\14-em0005Ia\\.nuget\\packages\\": {},
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj",
-      "projectName": "Entity",
-      "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj",
-      "packagesPath": "C:\\Users\\JuanSe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Entity.csproj",
       "projectName": "Entity",
       "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\obj\\",
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\JuanSe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\14-em0005Ia\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5561,11 +5545,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
       }
     }
   }

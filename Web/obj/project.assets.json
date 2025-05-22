@@ -3842,39 +3842,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\JuanSe\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\14-em0005Ia\\.nuget\\packages\\": {},
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Web.csproj",
-      "projectName": "Web",
-      "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\JuanSe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
       "projectName": "Web",
       "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\14-em0005Ia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Web\\obj\\",
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\JuanSe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\14-em0005Ia\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3889,19 +3873,6 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Business\\Business.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Data.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Entity\\Entity.csproj"
-            },
-            "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Utilities.csproj"
-=======
             "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj": {
               "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Business\\Business.csproj"
             },
@@ -3913,7 +3884,6 @@
             },
             "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj": {
               "projectPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Utilities.csproj"
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
             }
           }
         }
@@ -3970,11 +3940,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
->>>>>>> 77643a0ce56d31692beb246eb7e3ba2bf305bd6f
       }
     }
   },
@@ -3983,7 +3949,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "EnterpriseLibrary.Validation 6.0.1304 depends on EnterpriseLibrary.Common (>= 6.0.0) but EnterpriseLibrary.Common 6.0.0 was not found. EnterpriseLibrary.Common 6.0.1304 was resolved instead.",
+      "message": "EnterpriseLibrary.Validation 6.0.1304 depende de EnterpriseLibrary.Common (>= 6.0.0), pero no se encontró EnterpriseLibrary.Common 6.0.0. EnterpriseLibrary.Common 6.0.1304 se resolvió en su lugar.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         "net9.0"
@@ -3993,7 +3959,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.Common 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"EnterpriseLibrary.Common 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         "net9.0"
@@ -4003,7 +3969,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.Validation 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"EnterpriseLibrary.Validation 6.0.1304\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "EnterpriseLibrary.Validation",
       "targetGraphs": [
         "net9.0"

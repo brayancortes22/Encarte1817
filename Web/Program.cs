@@ -90,88 +90,90 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddCors(options =>
+var origenesPermitidos = builder.Configuration.GetValue<string>("origenesPermitidos")!.Split(";");
 {
-    options.AddPolicy("AllowSpecificOrigins", corsBuilder =>  // Cambiado de 'builder' a 'corsBuilder'
+    builder.Services.AddCors(options =>
     {
-        corsBuilder.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ??
-                           new string[] { "http://localhost:3000" })
-               .AllowAnyMethod()
-               .AllowAnyHeader();
-    });
-});
-
-// Register AutoMapper
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Sistema de Gestión v1");
-        c.RoutePrefix = string.Empty; // Para servir Swagger UI en la raíz
-    });
-}
-
-// Use custom exception handling middleware
-app.UseExceptionHandler(appError =>
-{
-    appError.Run(async context =>
-    {
-        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-        context.Response.ContentType = "application/json";
-
-        await context.Response.WriteAsync(new
+        options.AddDefaultPolicy(optionsCORS =>
         {
-            StatusCode = context.Response.StatusCode,
-            Message = "Error interno del servidor."
-        }.ToString());
+            optionsCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader();
+        });
     });
-});
 
-// Enable CORS
-app.UseCors("AllowSpecificOrigins");
+    // Register AutoMapper
+    builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-app.UseHttpsRedirection();
+    var app = builder.Build();
 
-// Add authentication & authorization
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllers();
-
-// Ensure database is created and apply pending migrations
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    try
+    // Configure the HTTP request pipeline
+    if (app.Environment.IsDevelopment())
     {
-        var dbContext = services.GetRequiredService<ApplicationDbContext>();
+        app.UseSwagger();
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Sistema de Gestión v1");
+            c.RoutePrefix = string.Empty; // Para servir Swagger UI en la raíz
+        });
+    }
 
-        // Check if database exists and create it if not
-        if (dbContext.Database.EnsureCreated())
+    // Use custom exception handling middleware
+    app.UseExceptionHandler(appError =>
+    {
+        appError.Run(async context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+            context.Response.ContentType = "application/json";
+
+            await context.Response.WriteAsync(new
+            {
+                StatusCode = context.Response.StatusCode,
+                Message = "Error interno del servidor."
+            }.ToString());
+        });
+    });
+
+    // Enable CORS
+    app.UseCors();
+
+    app.UseHttpsRedirection();
+
+    // Add authentication & authorization
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    // Ensure database is created and apply pending migrations
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        try
+        {
+            var dbContext = services.GetRequiredService<ApplicationDbContext>();
+
+            // Check if database exists and create it if not
+            if (dbContext.Database.EnsureCreated())
+            {
+                var logger = services.GetRequiredService<ILogger<Program>>();
+                logger.LogInformation("Base de datos creada exitosamente.");
+            }
+
+            // Apply pending migrations
+            if (dbContext.Database.GetPendingMigrations().Any())
+            {
+                dbContext.Database.Migrate();
+                var logger = services.GetRequiredService<ILogger<Program>>();
+                logger.LogInformation("Migraciones aplicadas exitosamente.");
+            }
+        }
+        catch (Exception ex)
         {
             var logger = services.GetRequiredService<ILogger<Program>>();
-            logger.LogInformation("Base de datos creada exitosamente.");
+            logger.LogError(ex, "Ocurrió un error durante la migración de la base de datos.");
         }
+    }
 
-        // Apply pending migrations
-        if (dbContext.Database.GetPendingMigrations().Any())
-        {
-            dbContext.Database.Migrate();
-            var logger = services.GetRequiredService<ILogger<Program>>();
-            logger.LogInformation("Migraciones aplicadas exitosamente.");
-        }
-    }
-    catch (Exception ex)
-    {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Ocurrió un error durante la migración de la base de datos.");
-    }
+    app.Run();
+
+
 }
-
-app.Run();
