@@ -12,7 +12,7 @@ namespace Business.Interfaces
     /// </summary>
     public interface IJwtService
     {
-        /// <summary>
+        /// <summary>-+
         /// Genera un token JWT para un usuario autenticado.
         /// </summary>
         /// <param name="user">Usuario autenticado</param>
