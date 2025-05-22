@@ -1,42 +1,89 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\roleuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\rolebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\web\\controllers\\implements\\credencialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\controllers\\implements\\credencialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\utilities\\mappers\\profiles\\roluserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\mappers\\profiles\\roluserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\utilities\\helpers\\generichelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\helpers\\generichelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\basedata\\abasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\juanse\\desktop\\c#\\encarte1817\\data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\implements\\roluserdata\\roluserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-  "WorkspaceRootPath": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61A18026-998E-4C87-9DF2-3E65C40BDE24}|Utilities\\Utilities.csproj|solutionrelative:utilities\\jwt\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\data\\interfaces\\ibasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C90275-0B6B-4E24-B402-AC654EF54F74}|Data\\Data.csproj|solutionrelative:data\\interfaces\\ibasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECC66A9-766C-4FE3-BAD7-44D1C1B83475}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\roluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\14-em0005ia\\source\\repos\\brayancortes22\\encarte1817\\entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\entity\\dtos\\roluserdto\\roluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\roluserdto\\roluserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\entity\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7EC74C9-49BB-436C-B223-2041F063E8D7}|Entity\\Entity.csproj|solutionrelative:entity\\dtos\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\encarte1817\\business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8AA83A5-C329-4DF3-9D03-D1543F761A97}|Business\\Business.csproj|solutionrelative:business\\implements\\abasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,51 +93,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CredencialesController.cs",
-              "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Controllers\\Implements\\CredencialesController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\CredencialesController.cs",
-              "ToolTip": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Controllers\\Implements\\CredencialesController.cs",
-              "RelativeToolTip": "Web\\Controllers\\Implements\\CredencialesController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwCsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Web\\Controllers\\Implements",
-              "WhenOpened": "2025-05-20T23:19:50.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\appsettings.json",
-              "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T23:00:09.06Z",
-              "EditorCaption": ""
-=======
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenerateTokenJwt.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "RelativeDocumentMoniker": "Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "RelativeToolTip": "Utilities\\Jwt\\GenerateTokenJwt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:16:51.267Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -108,13 +112,217 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAADgBAAAAAAAAAAD4vwkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-21T23:59:49.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleUserBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleUserBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:52:38.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RoleBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\RoleBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\RoleBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\RoleBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:50:52.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolUserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mappers\\Profiles\\RolUserProfile.cs",
+              "RelativeDocumentMoniker": "Utilities\\Mappers\\Profiles\\RolUserProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Utilities\\Mappers\\Profiles\\RolUserProfile.cs",
+              "RelativeToolTip": "Utilities\\Mappers\\Profiles\\RolUserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:43:37.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\BaseData.cs",
+              "RelativeToolTip": "Data\\Implements\\BaseData\\BaseData.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:43:01.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ABaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\ABaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Implements\\BaseData\\ABaseData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Implements\\BaseData\\ABaseData.cs",
+              "RelativeToolTip": "Data\\Implements\\BaseData\\ABaseData.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:42:34.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Interfaces\\IBaseData.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IBaseData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Data\\Interfaces\\IBaseData.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IBaseData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:41:52.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolUser.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\RolUser.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Model\\RolUser.cs",
+              "RelativeToolTip": "Entity\\Model\\RolUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:41:34.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Entity\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Model\\User.cs",
+              "RelativeToolTip": "Entity\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:41:12.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RolUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\RolUserDTO\\RolUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:41:01.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:40:37.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IUserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IUserBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IUserBusiness.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:39:47.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\BaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\BaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\BaseBusiness.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAowOcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:22:39.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:43:48.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\UserBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\UserBusiness.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwvxkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:39:45.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\UserController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\UserController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:44:05.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\Implements\\GenericController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Web\\Controllers\\Implements\\GenericController.cs",
+              "RelativeToolTip": "Web\\Controllers\\Implements\\GenericController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:44:15.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Business\\Services\\JwtService.cs",
@@ -122,64 +330,44 @@
               "RelativeToolTip": "Business\\Services\\JwtService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T23:15:53.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T23:15:53.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "Web/Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAApwFkAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "Business\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Web",
-              "OverriddenToolTip": "Web/Program.cs",
-              "WhenOpened": "2025-05-20T22:43:31.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T23:16:01.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericHelpers.cs",
-              "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Helpers\\GenericHelpers.cs",
-              "RelativeDocumentMoniker": "Utilities\\Helpers\\GenericHelpers.cs",
-              "ToolTip": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Utilities\\Helpers\\GenericHelpers.cs",
-              "RelativeToolTip": "Utilities\\Helpers\\GenericHelpers.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ABaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Implements\\ABaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Implements\\ABaseBusiness.cs",
+              "RelativeToolTip": "Business\\Implements\\ABaseBusiness.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:42:40.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T22:21:08.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RolUserData.cs",
-              "DocumentMoniker": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
-              "RelativeDocumentMoniker": "Data\\Implements\\RolUserData\\RolUserData.cs",
-              "ToolTip": "C:\\Users\\JuanSe\\Desktop\\C#\\Encarte1817\\Data\\Implements\\RolUserData\\RolUserData.cs",
-              "RelativeToolTip": "Data\\Implements\\RolUserData\\RolUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:40:32.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-=======
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\14-em0005Ia\\source\\repos\\brayancortes22\\Encarte1817\\Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
-              "RelativeToolTip": "Entity\\Dtos\\UserDTO\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Title": "IBaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IBaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Encarte1817\\Business\\Interfaces\\IBaseBusiness.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IBaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T22:19:22.403Z",
               "EditorCaption": ""
->>>>>>> e58a85800fd303a5de27f7cd79c857c524c31afc
             }
           ]
         }
